@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESLGSU_Parts_Lib")(type "KiCad")(uri "${KIPRJMOD}/ESLGSU_Parts_Lib.pretty")(options "")(descr ""))
+)
