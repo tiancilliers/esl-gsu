@@ -1,7 +1,7 @@
 (footprint "V-DFN3030-8" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0.02 -2.08 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0.02 -2.6 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5fc5a125-00de-418e-8030-1cc83e96cb97)
   )
@@ -9,7 +9,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fb521ac1-ab4f-4689-b957-b923fb111507)
   )
-  (fp_text user "${REFERENCE}" (at -0.02 0.02) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.75 0.75) (thickness 0.11)))
     (tstamp 5bddd730-8a05-4480-812a-f95b33ee2308)
   )
