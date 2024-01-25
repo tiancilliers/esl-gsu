@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2024-01-18")
+    (rev "1")
+    (company "Electronic Systems Laboratory")
+  )
+
   (lib_symbols
   )
 

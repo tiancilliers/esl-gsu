@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2024-01-18")
+    (rev "1")
+    (company "Electronic Systems Laboratory")
+  )
+
   (lib_symbols
     (symbol "ESLGSU_Parts_Lib:PI_ZERO_2_W" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -13.97 34.29 0)
@@ -12,7 +18,7 @@
       (property "Value" "" (at 1.27 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 1.27 -5.08 0)
+      (property "Footprint" "ESLGSU_Parts_Lib:PI_ZERO_2_W" (at 2.54 34.29 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 1.27 -5.08 0)

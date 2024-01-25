@@ -389,7 +389,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ESLGSU_Parts_Lib"
+    ]
   },
   "meta": {
     "filename": "ESLGSU.kicad_pro",
