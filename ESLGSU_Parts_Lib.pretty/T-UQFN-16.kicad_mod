@@ -16,7 +16,7 @@
   (fp_line (start -1.028205 -1.375742) (end -1.028205 -0.925742)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3e5bf452-be64-4748-8a0b-3f89c004df1c))
   (fp_rect (start -1.2 -1.6) (end 1.2 1.6)
-    (stroke (width 0.08) (type default)) (fill none) (layer "Margin") (tstamp df12583b-660c-4f27-9098-3fd08c275c92))
+    (stroke (width 0.08) (type default)) (fill none) (layer "F.CrtYd") (tstamp df12583b-660c-4f27-9098-3fd08c275c92))
   (fp_line (start -0.9 -0.9) (end -0.525 -1.275)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6a109ddd-b267-45f0-b1c2-56a23fa04753))
   (fp_rect (start -0.9 -1.3) (end 0.9 1.3)
@@ -37,4 +37,9 @@
   (pad "14" smd roundrect (at 0.2 -1.2 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 49b01042-7a93-4644-89c8-cf1710ee4bb8))
   (pad "15" smd roundrect (at -0.2 -1.2 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 55e4c39f-3b5f-4338-8f57-76b1ff47a43d))
   (pad "16" smd roundrect (at -0.6 -1.2 270) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f71cbf15-a34c-49dd-b7b3-eaddca2a3e32))
+  (model ":KICAD7_3DMODEL_DIR:Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.6 0.9 1))
+    (rotate (xyz 0 0 0))
+  )
 )
