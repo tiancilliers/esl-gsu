@@ -6043,7 +6043,7 @@
     (property "Reference" "U37" (at 106.3341 236.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32H753ZITx" (at 106.3341 238.76 0)
+    (property "Value" "STM32H753ZIT6" (at 106.3341 238.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm" (at 76.2 233.68 0)

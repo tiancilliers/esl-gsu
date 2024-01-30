@@ -672,7 +672,7 @@
     (property "Reference" "U1" (at 62.23 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TCA9544A" (at 62.23 135.89 0)
+    (property "Value" "TCA9544APWR" (at 62.23 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 82.55 132.08 0)

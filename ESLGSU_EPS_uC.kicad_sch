@@ -749,7 +749,7 @@
     (property "Reference" "U38" (at 75.8541 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32F072VBTx" (at 75.8541 171.45 0)
+    (property "Value" "STM32F072VBT6" (at 75.8541 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm" (at 55.88 166.37 0)
