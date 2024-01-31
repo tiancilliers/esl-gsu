@@ -1,0 +1,63 @@
+Comment,Designator,Footprint,LCSC Part #
+"100n Unpolarized capacitor, small symbol","C1,C3,C5,C7,C10,C12,C13,C14,C15,C16,C25,C31,C32,C33,C34,C43,C49,C50,C51,C52,C61,C67,C68,C69,C70,C79,C85,C89,C93,C94,C95,C96,C97,C98,C99,C100,C104,C105,C106,C107,C110,C111",C_0402_1005Metric,C307331
+"1u Unpolarized capacitor, small symbol","C2,C8,C26,C29,C30,C44,C47,C48,C62,C65,C66,C80,C83,C84",C_0402_1005Metric,C52923
+"22n Unpolarized capacitor, small symbol","C4,C9,C19,C37,C55,C73",C_0402_1005Metric,C1532
+"1n Unpolarized capacitor, small symbol","C6,C11",C_0402_1005Metric,C1523
+100u Unpolarized capacitor,"C17,C35,C53,C71",CP_Elec_6.3x7.7,C134220
+22u Unpolarized capacitor,"C18,C20,C21,C22,C23,C24,C36,C38,C39,C40,C41,C42,C54,C56,C57,C58,C59,C60,C72,C74,C75,C76,C77,C78,C86,C87,C90,C91",C_0805_2012Metric,C45783
+"220p Unpolarized capacitor, small symbol","C27,C45,C63,C81",C_0402_1005Metric,C1530
+"2.2n Unpolarized capacitor, small symbol","C28,C46,C64,C82",C_0402_1005Metric,C1531
+10u Unpolarized capacitor,"C88,C92",C_0805_2012Metric,C15850
+"100p Unpolarized capacitor, small symbol",C103,C_0402_1005Metric,C1546
+TZ-P2-0603GTCS1-0.6T Light emitting diode,"D1,D2,D3,D4,D5,D6",LED_0603_1608Metric,C2286
+PJ-080BH DC Barrel Jack with an internal switch,J1,PJ-082BH,
+SRP1038A-4R7M Inductor,"L1,L2,L3,L4",L_Vishay_IHLP-4040,C2041319
+SPM5020T-4R7M-LR Inductor,"L5,L6",L_Vishay_IHLP-2020,C307807
+"RE1C002UNTCL 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23","Q1,Q2,Q3,Q4,Q5,Q6",SOT-416,C509959
+"10K Resistor, small US symbol","R1,R4,R17,R34,R56,R71,R96,R99",R_0402_1005Metric,C25744
+"20K Resistor, small US symbol","R2,R5",R_0402_1005Metric,C25765
+"5m Resistor, small US symbol","R3,R13,R30,R53,R68",R_0603_1608Metric,C346483
+"0R Resistor, small US symbol","R6,R7,R23,R24,R46,R47,R61,R62",R_0402_1005Metric,C17168
+"100R Resistor, small US symbol","R8,R25,R48,R63",R_0402_1005Metric,C25076
+"68K Resistor, small US symbol","R9,R26,R49,R52",R_0402_1005Metric,C36871
+"33K Resistor, small US symbol","R10,R27,R50,R65",R_0402_1005Metric,C25779
+"150K Resistor, small US symbol","R11,R51,R66",R_0402_1005Metric,C25755
+"22K Resistor, small US symbol","R12,R21,R38,R59,R74",R_0402_1005Metric,C25768
+"12K Resistor, small US symbol","R14,R20,R31,R54,R64",R_0402_1005Metric,C25752
+"200K Resistor, small US symbol","R15,R32,R55,R69,R95,R97,R98,R100,R101,R103,R114,R118,R119",R_0402_1005Metric,C25764
+"1.5K Resistor, small US symbol",R16,R_0402_1005Metric,C25867
+"330K Resistor, small US symbol",R18,R_0402_1005Metric,C25778
+"5.1K Resistor, small US symbol","R19,R36,R58,R67",R_0402_1005Metric,C25905
+"1K Resistor, small US symbol","R22,R39,R60,R75",R_0402_1005Metric,C11702
+"100K Resistor, small US symbol","R28,R83,R85",R_0402_1005Metric,C25741
+"51K Resistor, small US symbol","R29,R70,R73",R_0402_1005Metric,C25794
+"2.2K Resistor, small US symbol",R33,R_0402_1005Metric,C25879
+"75K Resistor, small US symbol",R35,R_0402_1005Metric,C25798
+"15K Resistor, small US symbol","R37,R102",R_0402_1005Metric,C25756
+"4.7K Resistor, small US symbol","R40,R41,R42,R43,R44,R45,R76,R77,R78,R79,R80,R81",R_0402_1005Metric,C25900
+"220K Resistor, small US symbol","R57,R72",R_0402_1005Metric,C25767
+"27K Resistor, small US symbol",R82,R_0402_1005Metric,C25771
+"5.6K Resistor, small US symbol","R84,R86",R_0402_1005Metric,C25908
+"47K Resistor, small US symbol","R87,R88,R89,R90",R_0402_1005Metric,C25792
+"150R Resistor, small US symbol","R91,R92",R_0402_1005Metric,C25082
+"TCA9544APWR I2C Hub, 4 Channels, Interrupts, TSSOP-20",U1,TSSOP-20_4.4x6.5mm_P0.65mm,C2674619
+VBQF1303 ,"U2,U6",V-DFN3030-8,C481054
+"INA219AIDCNR Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8","U3,U9,U13,U17,U21",SOT-23-8,C87469
+NCP45770IMN24TWG ,"U4,U7",WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm,C892480
+"AP74700QW6-7 Low Iq reverse battery protection ideal diode controller, SOT-23-6","U5,U8",SOT-23-6,C5381661
+TPS259474LRPWR ,"U10,U14,U18,U22",VQFN-HR,C3662807
+LM73100RPWR ,"U11,U15,U19,U23",VQFN-HR,C3210761
+MP28167-A ,"U12,U16,U20,U24",QFN-16-MP28167,
+FH-00339 ,U25,PI_ZERO_2_W,C2685112
+"AP63203WU-7 2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6",U26,TSOT-23-6,C780769
+"AP63205WU-7 2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6",U27,TSOT-23-6,C2071056
+TPS2121RUXR ,U28,Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias,C485916
+TCAN1051GVDRBRQ ,U29,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,C1848110
+THVD1450DRBR ,U30,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,C1850226
+TMUX1574RSVR ,"U31,U32,U34,U44,U47",T-UQFN-16,C2673120
+TXU0202DTTR ,"U33,U35",SOT833-1-XSON8,C18197534
+TXB0104RUT ,"U36,U40,U46",T-UQFN-12,C105266
+"STM32H753ZIT6 STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.62-3.6V, 114 GPIO, LQFP144",U37,LQFP-144_20x20mm_P0.5mm,C114408
+"STM32F072VBT6 STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 87 GPIO, LQFP100",U38,LQFP-100_14x14mm_P0.5mm,
+FXMA2102L8X ,U39,,C107408
+"STM32F072CBUx STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 37 GPIO, UFQFPN48",U41,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,
