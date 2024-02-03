@@ -351,9 +351,6 @@
       (property "Datasheet" "" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "LCSC Part" "C3210761" (at 3.81 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
       (symbol "LM73100_1_1"
         (rectangle (start -7.62 6.35) (end 7.62 -10.16)
           (stroke (width 0.3) (type default))
@@ -496,9 +493,6 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC Part" "C3662807" (at 11.43 10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TPS259474ARPWR_1_1"
@@ -3202,9 +3196,6 @@
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/09a64186-e4de-4db7-b903-c6397ff9a54d"
           (reference "R25") (unit 1)
         )
-        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/bf0312e4-5726-4684-b2e9-b4b5c1d8e876"
-          (reference "R122") (unit 1)
-        )
       )
     )
   )
@@ -4069,9 +4060,6 @@
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/09a64186-e4de-4db7-b903-c6397ff9a54d"
           (reference "R8") (unit 1)
         )
-        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/bf0312e4-5726-4684-b2e9-b4b5c1d8e876"
-          (reference "R122") (unit 1)
-        )
       )
     )
   )
@@ -4803,7 +4791,7 @@
     (property "Value" "RE1C002UNTCL" (at 219.71 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-416" (at 228.6 55.245 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 228.6 55.245 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" (at 223.52 53.34 0)
@@ -5452,7 +5440,7 @@
     (property "Value" "RE1C002UNTCL" (at 219.71 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-416" (at 228.6 121.285 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 228.6 121.285 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" (at 223.52 119.38 0)

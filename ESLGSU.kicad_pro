@@ -513,8 +513,12 @@
       "Programmable_Regulators"
     ],
     [
-      "ad258f95-4f3b-4c48-9c78-15e0a7a970e3",
+      "2a317018-6d88-41d1-86f4-cb6f86a8c68d",
       "Misc_uCs1"
+    ],
+    [
+      "9d9b9fbb-be95-4e78-92da-55ca1e06a336",
+      "Misc_uCs"
     ],
     [
       "62656839-ead6-4c9d-b4ee-68fd3b49c6dd",
@@ -525,12 +529,12 @@
       "Pi_Zero"
     ],
     [
-      "bf0312e4-5726-4684-b2e9-b4b5c1d8e876",
-      "Misc_uCs"
-    ],
-    [
       "c41d3519-67b9-43b9-97c4-d20822b3d6ca",
       "EPS_uC"
+    ],
+    [
+      "9412c7fa-2c7e-459e-92bb-96befc1cea15",
+      "Misc_uC_Combined"
     ],
     [
       "feac87e8-d04c-4646-81d1-6a4c94f01f41",
