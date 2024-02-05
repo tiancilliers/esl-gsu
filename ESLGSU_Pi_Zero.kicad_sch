@@ -584,7 +584,7 @@
   (symbol (lib_id "power:GND") (at 128.27 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04105b67-1a84-43c1-89a7-690a1bac01c5)
-    (property "Reference" "#PWR071" (at 128.27 119.38 0)
+    (property "Reference" "#PWR0202" (at 128.27 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 118.11 0)
@@ -600,7 +600,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/4575163f-435f-415b-9bb1-45133d43422d"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -638,7 +638,7 @@
           (reference "R222") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/4575163f-435f-415b-9bb1-45133d43422d"
-          (reference "R233") (unit 1)
+          (reference "R231") (unit 1)
         )
       )
     )
@@ -647,7 +647,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:PI_ZERO_2_W") (at 128.27 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45166013-8a9e-4698-9836-317280bf45be)
-    (property "Reference" "U25" (at 114.3 45.72 0)
+    (property "Reference" "U72" (at 114.3 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FH-00339" (at 129.54 81.28 0)
@@ -705,7 +705,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/4575163f-435f-415b-9bb1-45133d43422d"
-          (reference "U25") (unit 1)
+          (reference "U72") (unit 1)
         )
       )
     )
@@ -743,7 +743,7 @@
           (reference "R221") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/4575163f-435f-415b-9bb1-45133d43422d"
-          (reference "R231") (unit 1)
+          (reference "R230") (unit 1)
         )
       )
     )

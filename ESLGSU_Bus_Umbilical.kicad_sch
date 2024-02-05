@@ -907,7 +907,7 @@
   (symbol (lib_id "power:GND") (at 120.65 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08e16ff8-6f02-4d00-b42e-25552d4b7326)
-    (property "Reference" "#PWR0226" (at 120.65 118.11 0)
+    (property "Reference" "#PWR0257" (at 120.65 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 116.84 0)
@@ -923,7 +923,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0226") (unit 1)
+          (reference "#PWR0257") (unit 1)
         )
       )
     )
@@ -932,7 +932,7 @@
   (symbol (lib_id "power:GND") (at 60.96 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c4c1a9f-d7b9-424e-a670-e5bc2e374388)
-    (property "Reference" "#PWR0220" (at 54.61 116.84 0)
+    (property "Reference" "#PWR0258" (at 54.61 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 116.84 90)
@@ -948,7 +948,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0258") (unit 1)
         )
       )
     )
@@ -957,7 +957,7 @@
   (symbol (lib_id "power:GND") (at 60.96 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e010986-bc3e-49cb-9794-79e25288e946)
-    (property "Reference" "#PWR0219" (at 54.61 91.44 0)
+    (property "Reference" "#PWR0253" (at 54.61 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 91.44 90)
@@ -973,7 +973,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0253") (unit 1)
         )
       )
     )
@@ -982,7 +982,7 @@
   (symbol (lib_id "power:GND") (at 60.96 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fa10d08-da9f-4345-8ef2-7977bd8464af)
-    (property "Reference" "#PWR0223" (at 54.61 104.14 0)
+    (property "Reference" "#PWR0256" (at 54.61 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 104.14 90)
@@ -998,7 +998,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0223") (unit 1)
+          (reference "#PWR0256") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "power:GND") (at 60.96 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 968bc17f-e18e-424f-b9b5-00f9e3069872)
-    (property "Reference" "#PWR0221" (at 54.61 139.7 0)
+    (property "Reference" "#PWR0259" (at 54.61 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 139.7 90)
@@ -1023,7 +1023,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR0259") (unit 1)
         )
       )
     )
@@ -1032,7 +1032,7 @@
   (symbol (lib_id "power:GND") (at 111.76 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a270d0f5-1e5d-4e07-a351-52cde6c270ce)
-    (property "Reference" "#PWR0246" (at 105.41 101.6 0)
+    (property "Reference" "#PWR0255" (at 105.41 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 101.6 90)
@@ -1048,7 +1048,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0246") (unit 1)
+          (reference "#PWR0255") (unit 1)
         )
       )
     )
@@ -1057,7 +1057,7 @@
   (symbol (lib_id "power:GND") (at 60.96 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9845466-a830-49cc-8ebc-f4391b0f6517)
-    (property "Reference" "#PWR0222" (at 54.61 40.64 0)
+    (property "Reference" "#PWR0249" (at 54.61 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 40.64 90)
@@ -1073,7 +1073,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0249") (unit 1)
         )
       )
     )
@@ -1082,7 +1082,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin") (at 120.65 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7bc94fd-7b8f-4004-8830-108d4a4396e8)
-    (property "Reference" "J8" (at 123.19 96.8756 0)
+    (property "Reference" "J10" (at 123.19 96.8756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1054301108" (at 123.19 99.4156 0)
@@ -1094,20 +1094,20 @@
     (property "Datasheet" "~" (at 120.65 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 2d67fd0d-0de7-4fde-a54a-825a9fe5da12))
-    (pin "S1" (uuid 99c09d77-c371-47c8-8df9-bfe1769f406c))
-    (pin "5" (uuid f475bbe8-3876-4a65-94ac-ac253621de6b))
+    (pin "S2" (uuid 7b0cd275-d8ad-4c1b-bffd-ed0e0817c4bf))
+    (pin "1" (uuid d4661a4b-dcc8-496b-9093-2c2b9aef4fc3))
     (pin "2" (uuid a436e655-cbec-42dc-8f65-68af921e46a7))
     (pin "3" (uuid 3dcc331c-15f9-4802-ae43-ab8a365897a5))
+    (pin "4" (uuid 2d67fd0d-0de7-4fde-a54a-825a9fe5da12))
+    (pin "5" (uuid f475bbe8-3876-4a65-94ac-ac253621de6b))
     (pin "6" (uuid fa063e10-089e-470d-813e-b2ed13187092))
-    (pin "S2" (uuid 7b0cd275-d8ad-4c1b-bffd-ed0e0817c4bf))
-    (pin "8" (uuid 999329ff-708c-4df1-b982-1e04b4825b18))
     (pin "7" (uuid 072b4878-95f3-4704-897f-a81e4f981f6d))
-    (pin "1" (uuid d4661a4b-dcc8-496b-9093-2c2b9aef4fc3))
+    (pin "8" (uuid 999329ff-708c-4df1-b982-1e04b4825b18))
+    (pin "S1" (uuid 99c09d77-c371-47c8-8df9-bfe1769f406c))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1116,7 +1116,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x40_MountingPin") (at 69.85 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7e503ab-738d-42b9-8d30-509dc3f6be9d)
-    (property "Reference" "J6" (at 55.88 156.21 0)
+    (property "Reference" "J9" (at 55.88 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AMPHENOL_62684-401100ALF" (at 55.88 158.75 0)
@@ -1131,52 +1131,52 @@
     (property "LCDC Part" "C2904111" (at 69.85 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "12" (uuid 684c3817-dee7-424d-97f1-8d17c7b1e27e))
-    (pin "35" (uuid ac3f9da1-1bb5-4887-8dcc-72f4641f0dba))
-    (pin "25" (uuid 3457fa03-2b4b-4d52-b246-b8a52c254160))
-    (pin "37" (uuid 64f4ed3a-3ba6-4aba-be1a-65950778c9c8))
-    (pin "26" (uuid 2f42b31e-4226-4152-b05c-50e851a55c66))
-    (pin "10" (uuid 1e7af415-7586-4ef7-b475-2b778b20e8ee))
-    (pin "22" (uuid 2275af16-9b0c-4647-af97-18b84da29ddc))
-    (pin "19" (uuid 57f717df-b984-41a8-83ef-ab2ed67b7dc2))
-    (pin "30" (uuid 5d271767-1f4f-4dbc-b0b5-348d0a5ff2dc))
-    (pin "38" (uuid abe4f5c0-4afe-4134-8ca3-0c2295aabe22))
-    (pin "39" (uuid ba2f60f6-6b0b-4d64-a934-c08dbdfbcc11))
-    (pin "04" (uuid 4e776141-d077-4bac-ab4a-df8cc20bd63f))
-    (pin "03" (uuid 7ed7e3f5-085d-45cf-a376-ddcd40ef9d44))
-    (pin "34" (uuid e3d26a31-2c5a-41de-97fa-06391d730bff))
-    (pin "05" (uuid 80978526-96fc-4673-bbcc-0dca2b935dad))
-    (pin "16" (uuid 9fc6202c-33fc-4cf5-ae02-f6c7039115eb))
-    (pin "23" (uuid cf40dc3b-ffee-4fbd-88fa-027962e044f6))
-    (pin "28" (uuid 3aa9d235-3a2e-4b6a-bc04-ae575112af1c))
-    (pin "08" (uuid e64c1a69-0b5c-4fee-b6f4-3d66a33af54d))
-    (pin "17" (uuid 814689a7-939c-4fb7-b4e9-d2e39bf7fe02))
-    (pin "32" (uuid 92e889e1-5e3c-49e2-93bf-352d106849e4))
-    (pin "20" (uuid 8ac0b89f-e97c-4572-8ec3-83e0e34ef40c))
-    (pin "27" (uuid 9d01c851-2808-49ff-afda-d0262fd8f33d))
-    (pin "36" (uuid 9bc9b6b5-70df-440e-8f6e-eed7b77ddb0e))
-    (pin "S2" (uuid 82a62457-275f-42ce-ab06-8d6b11eaab61))
-    (pin "18" (uuid bc0a3bd2-1008-4082-9a1c-0a36a87d9924))
-    (pin "02" (uuid 8611dce0-0a38-41cd-8984-8354e96428b5))
-    (pin "06" (uuid df46c617-a395-41e4-af0e-356232703a1b))
-    (pin "33" (uuid 2e35b65f-de7f-411e-a855-daefb16ed61d))
-    (pin "09" (uuid f01850df-6b29-49c7-853c-e77eda531914))
-    (pin "13" (uuid f0d973ea-0391-4d69-a320-5e1477b40bc6))
-    (pin "07" (uuid 658684ec-7b98-4074-8941-f1fa7324b77b))
     (pin "01" (uuid 9616989a-8065-4e15-998b-b4570fafeca4))
+    (pin "02" (uuid 8611dce0-0a38-41cd-8984-8354e96428b5))
+    (pin "03" (uuid 7ed7e3f5-085d-45cf-a376-ddcd40ef9d44))
+    (pin "04" (uuid 4e776141-d077-4bac-ab4a-df8cc20bd63f))
+    (pin "05" (uuid 80978526-96fc-4673-bbcc-0dca2b935dad))
+    (pin "06" (uuid df46c617-a395-41e4-af0e-356232703a1b))
+    (pin "07" (uuid 658684ec-7b98-4074-8941-f1fa7324b77b))
+    (pin "08" (uuid e64c1a69-0b5c-4fee-b6f4-3d66a33af54d))
+    (pin "09" (uuid f01850df-6b29-49c7-853c-e77eda531914))
+    (pin "10" (uuid 1e7af415-7586-4ef7-b475-2b778b20e8ee))
     (pin "11" (uuid 92fb5865-4ae9-47e1-b6bc-f0300db3ad57))
+    (pin "12" (uuid 684c3817-dee7-424d-97f1-8d17c7b1e27e))
+    (pin "13" (uuid f0d973ea-0391-4d69-a320-5e1477b40bc6))
     (pin "14" (uuid 0c898870-1fe6-4e38-b9ed-1eb3e85fb5c7))
     (pin "15" (uuid 839394ae-74a0-434e-a05f-aa895840ef45))
-    (pin "24" (uuid 2e4ff412-d43c-4a63-a852-a9e26edc795e))
+    (pin "16" (uuid 9fc6202c-33fc-4cf5-ae02-f6c7039115eb))
+    (pin "17" (uuid 814689a7-939c-4fb7-b4e9-d2e39bf7fe02))
+    (pin "18" (uuid bc0a3bd2-1008-4082-9a1c-0a36a87d9924))
+    (pin "19" (uuid 57f717df-b984-41a8-83ef-ab2ed67b7dc2))
+    (pin "20" (uuid 8ac0b89f-e97c-4572-8ec3-83e0e34ef40c))
     (pin "21" (uuid 67944b1a-52cb-477e-83e9-816430e2f43b))
-    (pin "31" (uuid 7f437575-9501-469d-8f5b-fa611f2cd809))
-    (pin "40" (uuid 4404db35-8d15-4723-b1d9-64ae2fe017fa))
+    (pin "22" (uuid 2275af16-9b0c-4647-af97-18b84da29ddc))
+    (pin "23" (uuid cf40dc3b-ffee-4fbd-88fa-027962e044f6))
+    (pin "24" (uuid 2e4ff412-d43c-4a63-a852-a9e26edc795e))
+    (pin "25" (uuid 3457fa03-2b4b-4d52-b246-b8a52c254160))
+    (pin "26" (uuid 2f42b31e-4226-4152-b05c-50e851a55c66))
+    (pin "27" (uuid 9d01c851-2808-49ff-afda-d0262fd8f33d))
+    (pin "28" (uuid 3aa9d235-3a2e-4b6a-bc04-ae575112af1c))
     (pin "29" (uuid 0cbffa74-4123-42e4-8883-95c83f64e01c))
+    (pin "30" (uuid 5d271767-1f4f-4dbc-b0b5-348d0a5ff2dc))
+    (pin "31" (uuid 7f437575-9501-469d-8f5b-fa611f2cd809))
+    (pin "32" (uuid 92e889e1-5e3c-49e2-93bf-352d106849e4))
+    (pin "33" (uuid 2e35b65f-de7f-411e-a855-daefb16ed61d))
+    (pin "34" (uuid e3d26a31-2c5a-41de-97fa-06391d730bff))
+    (pin "35" (uuid ac3f9da1-1bb5-4887-8dcc-72f4641f0dba))
+    (pin "36" (uuid 9bc9b6b5-70df-440e-8f6e-eed7b77ddb0e))
+    (pin "37" (uuid 64f4ed3a-3ba6-4aba-be1a-65950778c9c8))
+    (pin "38" (uuid abe4f5c0-4afe-4134-8ca3-0c2295aabe22))
+    (pin "39" (uuid ba2f60f6-6b0b-4d64-a934-c08dbdfbcc11))
+    (pin "40" (uuid 4404db35-8d15-4723-b1d9-64ae2fe017fa))
     (pin "S1" (uuid 4a3e3f15-3f24-411a-88b4-5f00f6254120))
+    (pin "S2" (uuid 82a62457-275f-42ce-ab06-8d6b11eaab61))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1185,7 +1185,7 @@
   (symbol (lib_id "power:GND") (at 111.76 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6bb9358-e285-47c2-b157-fa425620b184)
-    (property "Reference" "#PWR0227" (at 105.41 93.98 0)
+    (property "Reference" "#PWR0254" (at 105.41 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 93.98 90)
@@ -1201,7 +1201,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0227") (unit 1)
+          (reference "#PWR0254") (unit 1)
         )
       )
     )
@@ -1210,7 +1210,7 @@
   (symbol (lib_id "power:GND") (at 69.85 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b68123-6cfc-490d-b752-a4d9e5a04571)
-    (property "Reference" "#PWR0215" (at 69.85 151.13 0)
+    (property "Reference" "#PWR0260" (at 69.85 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 149.86 0)
@@ -1226,7 +1226,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -1235,7 +1235,7 @@
   (symbol (lib_id "power:GND") (at 60.96 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc265798-c26e-4b8c-96de-0c1eb10cfcaf)
-    (property "Reference" "#PWR0216" (at 54.61 53.34 0)
+    (property "Reference" "#PWR0250" (at 54.61 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 53.34 90)
@@ -1251,7 +1251,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR0250") (unit 1)
         )
       )
     )
@@ -1260,7 +1260,7 @@
   (symbol (lib_id "power:GND") (at 60.96 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd1fd615-7a6b-4f71-8ac2-f662d8e6c386)
-    (property "Reference" "#PWR0217" (at 54.61 66.04 0)
+    (property "Reference" "#PWR0251" (at 54.61 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 66.04 90)
@@ -1276,7 +1276,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0217") (unit 1)
+          (reference "#PWR0251") (unit 1)
         )
       )
     )
@@ -1285,7 +1285,7 @@
   (symbol (lib_id "power:GND") (at 60.96 78.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fef86e31-9f23-4700-b629-1faa19c1178b)
-    (property "Reference" "#PWR0218" (at 54.61 78.74 0)
+    (property "Reference" "#PWR0252" (at 54.61 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 78.74 90)
@@ -1301,7 +1301,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/feac87e8-d04c-4646-81d1-6a4c94f01f41"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0252") (unit 1)
         )
       )
     )

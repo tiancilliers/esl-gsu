@@ -136,6 +136,41 @@
         )
       )
     )
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:USB_B_Micro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J7" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
@@ -3319,6 +3354,9 @@
   (junction (at 176.53 181.61) (diameter 0) (color 0 0 0 0)
     (uuid 0bb1a02c-0943-41d5-9797-3ce4309fc900)
   )
+  (junction (at 218.44 203.2) (diameter 0) (color 0 0 0 0)
+    (uuid 0e883c9f-9f70-4df6-9d62-ddfc11452cd5)
+  )
   (junction (at 80.01 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 1242f4cf-1385-45db-a770-f67680640bec)
   )
@@ -3441,6 +3479,9 @@
   )
   (junction (at 304.8 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 487aa0ab-7b2f-4acf-93b7-af34540ee919)
+  )
+  (junction (at 214.63 273.05) (diameter 0) (color 0 0 0 0)
+    (uuid 4ac77d1e-a522-442e-bb33-786022f6516a)
   )
   (junction (at 297.18 68.58) (diameter 0) (color 0 0 0 0)
     (uuid 4c5dc68d-448b-4fc6-a192-481dc429a62b)
@@ -4002,7 +4043,7 @@
     (stroke (width 0) (type default))
     (uuid 0433c578-5cc5-42a0-ab9f-4fd07ff23f16)
   )
-  (wire (pts (xy 214.63 242.57) (xy 213.36 242.57))
+  (wire (pts (xy 215.9 242.57) (xy 213.36 242.57))
     (stroke (width 0) (type default))
     (uuid 049a20f7-2669-48bd-9dfd-b7c61cec2bbe)
   )
@@ -4153,6 +4194,10 @@
   (wire (pts (xy 105.41 135.89) (xy 102.87 135.89))
     (stroke (width 0) (type default))
     (uuid 1389c4f5-16bf-475e-ae5a-350fab015bad)
+  )
+  (wire (pts (xy 214.63 273.05) (xy 213.36 273.05))
+    (stroke (width 0) (type default))
+    (uuid 13da2683-485b-45d9-a30b-53484b47b4a6)
   )
   (wire (pts (xy 364.49 78.74) (xy 364.49 81.28))
     (stroke (width 0) (type default))
@@ -4798,7 +4843,7 @@
     (stroke (width 0) (type default))
     (uuid 5b065071-44e4-41f9-8639-075c06a75e4e)
   )
-  (wire (pts (xy 218.44 203.2) (xy 217.17 203.2))
+  (wire (pts (xy 219.71 203.2) (xy 218.44 203.2))
     (stroke (width 0) (type default))
     (uuid 5b18a509-35b4-4b86-8fc9-a3ddeabc329a)
   )
@@ -5009,6 +5054,10 @@
   (wire (pts (xy 312.42 184.15) (xy 312.42 187.96))
     (stroke (width 0) (type default))
     (uuid 6d552125-e6a5-4fb3-8a89-33361d5f3f86)
+  )
+  (wire (pts (xy 218.44 203.2) (xy 217.17 203.2))
+    (stroke (width 0) (type default))
+    (uuid 6d9ca020-848b-41b1-b3d0-619003d23d12)
   )
   (wire (pts (xy 274.32 80.01) (xy 274.32 82.55))
     (stroke (width 0) (type default))
@@ -6326,7 +6375,7 @@
     (stroke (width 0) (type default))
     (uuid e8416afc-f2f9-468f-bb6b-019b45b4df74)
   )
-  (wire (pts (xy 214.63 273.05) (xy 213.36 273.05))
+  (wire (pts (xy 215.9 273.05) (xy 214.63 273.05))
     (stroke (width 0) (type default))
     (uuid e98565d2-08dd-49e1-aeb9-d010a3e323f5)
   )
@@ -7081,7 +7130,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4136d28e-431c-4553-9119-d1a7fb6b0c9b)
   )
-  (label "VBUS" (at 218.44 203.2 0) (fields_autoplaced)
+  (label "VBUS" (at 219.71 203.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4228f6e8-4b79-40e5-9246-659ba95116ff)
   )
@@ -7185,7 +7234,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 645c0e1b-6500-4038-b5b5-682ee9a82000)
   )
-  (label "SUB3V3" (at 214.63 242.57 0) (fields_autoplaced)
+  (label "SUB3V3" (at 215.9 242.57 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64a0cc8e-2f50-4799-ae8d-486eb666fdac)
   )
@@ -7733,7 +7782,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd1806f1-645c-4571-a284-3b3b3a227201)
   )
-  (label "SUB5V" (at 214.63 273.05 0) (fields_autoplaced)
+  (label "SUB5V" (at 215.9 273.05 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd4921e9-8b0a-4f4c-8197-72e8ca310248)
   )
@@ -8082,7 +8131,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2115ADRBR") (at 186.69 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 004dac7e-0078-4af8-9f57-2a0bbdce5ea2)
-    (property "Reference" "U52" (at 203.2 225.4819 0)
+    (property "Reference" "U70" (at 203.2 225.4819 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2115ADRBR" (at 203.2 228.0219 0)
@@ -8109,7 +8158,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U52") (unit 1)
+          (reference "U70") (unit 1)
         )
       )
     )
@@ -8144,7 +8193,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R145") (unit 1)
+          (reference "R169") (unit 1)
         )
       )
     )
@@ -8153,7 +8202,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 373.38 229.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0396305e-56cd-4d65-a8aa-710f8635b750)
-    (property "Reference" "U47" (at 371.1859 213.36 0)
+    (property "Reference" "U69" (at 371.1859 213.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 371.1859 215.9 0)
@@ -8187,7 +8236,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U47") (unit 1)
+          (reference "U69") (unit 1)
         )
       )
     )
@@ -8222,7 +8271,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C103") (unit 1)
+          (reference "C159") (unit 1)
         )
       )
     )
@@ -8254,7 +8303,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C170") (unit 1)
+          (reference "C187") (unit 1)
         )
       )
     )
@@ -8286,7 +8335,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C161") (unit 1)
+          (reference "C183") (unit 1)
         )
       )
     )
@@ -8321,7 +8370,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C95") (unit 1)
+          (reference "C146") (unit 1)
         )
       )
     )
@@ -8330,7 +8379,7 @@
   (symbol (lib_id "power:GND") (at 259.08 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07645095-aae2-4571-937c-b99771a4e12b)
-    (property "Reference" "#PWR0151" (at 259.08 148.59 0)
+    (property "Reference" "#PWR0174" (at 259.08 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 143.51 0)
@@ -8346,7 +8395,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -8355,7 +8404,7 @@
   (symbol (lib_id "power:GND") (at 311.15 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07a49480-1702-48d3-9270-574be257bfc0)
-    (property "Reference" "#PWR0149" (at 311.15 114.3 0)
+    (property "Reference" "#PWR0167" (at 311.15 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 311.15 113.03 0)
@@ -8371,7 +8420,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -8403,7 +8452,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C176") (unit 1)
+          (reference "C193") (unit 1)
         )
       )
     )
@@ -8435,7 +8484,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C162") (unit 1)
+          (reference "C184") (unit 1)
         )
       )
     )
@@ -8444,7 +8493,7 @@
   (symbol (lib_id "MCU_ST_STM32H7:STM32H743ZITx") (at 69.85 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08232d1d-9872-40ed-8f74-adf7de5cb035)
-    (property "Reference" "U37" (at 74.5841 278.13 0)
+    (property "Reference" "U64" (at 74.5841 278.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32H743ZITx" (at 74.5841 280.67 0)
@@ -8606,7 +8655,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U37") (unit 1)
+          (reference "U64") (unit 1)
         )
       )
     )
@@ -8638,7 +8687,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R103") (unit 1)
+          (reference "R186") (unit 1)
         )
       )
     )
@@ -8670,7 +8719,7 @@
           (reference "C29") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C157") (unit 1)
+          (reference "C179") (unit 1)
         )
       )
     )
@@ -8679,7 +8728,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 69.85 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b6c7dcb-300c-47c4-bf97-f6bc763ce19b)
-    (property "Reference" "U44" (at 67.6559 20.32 0)
+    (property "Reference" "U47" (at 67.6559 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 67.6559 22.86 0)
@@ -8713,7 +8762,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U44") (unit 1)
+          (reference "U47") (unit 1)
         )
       )
     )
@@ -8745,7 +8794,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R99") (unit 1)
+          (reference "R194") (unit 1)
         )
       )
     )
@@ -8754,7 +8803,7 @@
   (symbol (lib_id "power:GND") (at 39.37 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c0bb747-6212-409a-9a28-c80a7b913d1f)
-    (property "Reference" "#PWR0192" (at 33.02 105.41 0)
+    (property "Reference" "#PWR0165" (at 33.02 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 105.41 90)
@@ -8770,7 +8819,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0192") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -8779,7 +8828,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2115ADRBR") (at 186.69 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c28565c-f8fc-471c-b5d5-38e1098a40b8)
-    (property "Reference" "U56" (at 203.2 255.9619 0)
+    (property "Reference" "U71" (at 203.2 255.9619 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2115ADRBR" (at 203.2 258.5019 0)
@@ -8806,7 +8855,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U56") (unit 1)
+          (reference "U71") (unit 1)
         )
       )
     )
@@ -8815,7 +8864,7 @@
   (symbol (lib_id "power:GND") (at 285.75 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c417df8-6459-4704-8049-787b3420f9a1)
-    (property "Reference" "#PWR0155" (at 285.75 88.9 0)
+    (property "Reference" "#PWR0162" (at 285.75 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 288.29 82.55 0)
@@ -8831,7 +8880,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -8840,7 +8889,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 255.27 82.55 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 0c963877-52c4-42f8-91be-d2aea8d99b79)
-    (property "Reference" "RN16" (at 262.89 86.36 90)
+    (property "Reference" "RN11" (at 262.89 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 262.89 88.9 90)
@@ -8865,7 +8914,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN16") (unit 1)
+          (reference "RN11") (unit 1)
         )
       )
     )
@@ -8897,7 +8946,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C172") (unit 1)
+          (reference "C189") (unit 1)
         )
       )
     )
@@ -8929,7 +8978,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R197") (unit 1)
+          (reference "R217") (unit 1)
         )
       )
     )
@@ -8938,7 +8987,7 @@
   (symbol (lib_id "power:GND") (at 67.31 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fb8779c-dcee-472b-8ab7-dbda30f1d017)
-    (property "Reference" "#PWR0112" (at 73.66 87.63 0)
+    (property "Reference" "#PWR0164" (at 73.66 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 87.63 90)
@@ -8954,7 +9003,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -8963,7 +9012,7 @@
   (symbol (lib_id "power:GND") (at 347.98 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fcb1dc9-3ac3-405a-815d-ef2c0eaa8e91)
-    (property "Reference" "#PWR0108" (at 347.98 147.32 0)
+    (property "Reference" "#PWR0173" (at 347.98 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.17 142.24 0)
@@ -8979,7 +9028,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -9011,7 +9060,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R192") (unit 1)
+          (reference "R183") (unit 1)
         )
       )
     )
@@ -9020,7 +9069,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 297.18 107.95 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1457d944-1894-4044-b4b1-6d289e89596b)
-    (property "Reference" "U60" (at 281.94 100.33 90)
+    (property "Reference" "U57" (at 281.94 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 281.94 102.87 90)
@@ -9054,7 +9103,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U60") (unit 1)
+          (reference "U57") (unit 1)
         )
       )
     )
@@ -9086,7 +9135,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R135") (unit 1)
+          (reference "R226") (unit 1)
         )
       )
     )
@@ -9095,7 +9144,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 203.2 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1791ae00-4a8a-4afb-8f52-c5a45705b2dd)
-    (property "Reference" "J4" (at 203.835 142.24 0)
+    (property "Reference" "J6" (at 203.835 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06_Pin" (at 203.835 144.78 0)
@@ -9119,7 +9168,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -9154,7 +9203,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R149") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -9163,7 +9212,7 @@
   (symbol (lib_id "power:GND") (at 379.73 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1901ae56-fff6-4810-96fe-413d3f63ebba)
-    (property "Reference" "#PWR088" (at 386.08 45.72 0)
+    (property "Reference" "#PWR0147" (at 386.08 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 386.08 44.45 90)
@@ -9179,7 +9228,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -9211,7 +9260,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R98") (unit 1)
+          (reference "R216") (unit 1)
         )
       )
     )
@@ -9246,7 +9295,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R195") (unit 1)
+          (reference "R224") (unit 1)
         )
       )
     )
@@ -9278,7 +9327,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R139") (unit 1)
+          (reference "R192") (unit 1)
         )
       )
     )
@@ -9287,7 +9336,7 @@
   (symbol (lib_id "power:GND") (at 347.98 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d6665ac-ff05-4517-9789-a51c562bbb91)
-    (property "Reference" "#PWR094" (at 347.98 82.55 0)
+    (property "Reference" "#PWR0158" (at 347.98 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 350.52 76.2 0)
@@ -9303,7 +9352,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -9335,7 +9384,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R193") (unit 1)
+          (reference "R182") (unit 1)
         )
       )
     )
@@ -9344,7 +9393,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:THVD1450") (at 285.75 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dfc621c-1344-408f-85bc-80a3275cefb7)
-    (property "Reference" "U63" (at 287.9441 57.15 0)
+    (property "Reference" "U52" (at 287.9441 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "THVD1450DRBR" (at 287.9441 59.69 0)
@@ -9371,7 +9420,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U63") (unit 1)
+          (reference "U52") (unit 1)
         )
       )
     )
@@ -9403,7 +9452,7 @@
           (reference "C29") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C167") (unit 1)
+          (reference "C175") (unit 1)
         )
       )
     )
@@ -9438,7 +9487,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C100") (unit 1)
+          (reference "C157") (unit 1)
         )
       )
     )
@@ -9470,7 +9519,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C158") (unit 1)
+          (reference "C180") (unit 1)
         )
       )
     )
@@ -9505,7 +9554,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C137") (unit 1)
+          (reference "C160") (unit 1)
         )
       )
     )
@@ -9540,7 +9589,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R191") (unit 1)
+          (reference "R214") (unit 1)
         )
       )
     )
@@ -9572,7 +9621,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R200") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -9581,13 +9630,13 @@
   (symbol (lib_id "Diode:1N5819") (at 213.36 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27c3c38d-e61c-409c-a3ce-4e4571417613)
-    (property "Reference" "D10" (at 213.6775 139.7 0)
+    (property "Reference" "D11" (at 213.6775 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5819" (at 213.6775 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 213.36 141.605 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323" (at 213.36 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (at 213.36 146.05 0)
@@ -9601,7 +9650,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "D10") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -9633,7 +9682,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R119") (unit 1)
+          (reference "R184") (unit 1)
         )
       )
     )
@@ -9668,7 +9717,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C98") (unit 1)
+          (reference "C163") (unit 1)
         )
       )
     )
@@ -9700,7 +9749,7 @@
           (reference "C29") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C165") (unit 1)
+          (reference "C185") (unit 1)
         )
       )
     )
@@ -9709,7 +9758,7 @@
   (symbol (lib_id "power:GND") (at 186.69 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d069bcb-cd94-4a0b-af80-50525af3cc07)
-    (property "Reference" "#PWR0211" (at 193.04 74.93 0)
+    (property "Reference" "#PWR0157" (at 193.04 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 74.93 90)
@@ -9725,7 +9774,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "#PWR0195") (unit 1)
@@ -9737,7 +9786,7 @@
   (symbol (lib_id "power:GND") (at 266.7 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fa9e8f5-658c-47b1-bae6-a60916b981ff)
-    (property "Reference" "#PWR0156" (at 266.7 29.21 0)
+    (property "Reference" "#PWR0143" (at 266.7 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 26.67 0)
@@ -9753,7 +9802,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0156") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -9762,7 +9811,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXB0104RUTR") (at 251.46 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 305c4a14-391c-4ca6-927a-04c2d5a9ae9b)
-    (property "Reference" "U43" (at 254 222.25 0)
+    (property "Reference" "U66" (at 254 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXB0104RUT" (at 254 224.79 0)
@@ -9792,7 +9841,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U43") (unit 1)
+          (reference "U66") (unit 1)
         )
       )
     )
@@ -9824,7 +9873,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R100") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -9856,7 +9905,7 @@
           (reference "R8") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R188") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -9865,7 +9914,7 @@
   (symbol (lib_id "power:GND") (at 76.2 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33e1cce0-05da-4361-a653-36eaba8fe5e2)
-    (property "Reference" "#PWR0113" (at 82.55 80.01 0)
+    (property "Reference" "#PWR0160" (at 82.55 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 80.01 90)
@@ -9881,7 +9930,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -9890,7 +9939,7 @@
   (symbol (lib_id "power:GND") (at 247.65 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3416b1e0-e42f-496b-b5e8-4038cd5e782e)
-    (property "Reference" "#PWR0145" (at 247.65 166.37 0)
+    (property "Reference" "#PWR0177" (at 247.65 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 161.29 0)
@@ -9906,7 +9955,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -9915,7 +9964,7 @@
   (symbol (lib_id "power:GND") (at 81.28 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 377201a8-7902-4e4d-991a-bce001a9d9f5)
-    (property "Reference" "#PWR0193" (at 87.63 44.45 0)
+    (property "Reference" "#PWR0144" (at 87.63 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 44.45 90)
@@ -9931,7 +9980,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -9966,7 +10015,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C138") (unit 1)
+          (reference "C153") (unit 1)
         )
       )
     )
@@ -9975,7 +10024,7 @@
   (symbol (lib_id "power:GND") (at 33.02 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a581138-2372-4636-9e46-c3ae6a1ce4a4)
-    (property "Reference" "#PWR0191" (at 33.02 280.67 0)
+    (property "Reference" "#PWR0199" (at 33.02 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 279.4 0)
@@ -9991,7 +10040,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0191") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -10023,7 +10072,7 @@
           (reference "D1") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "D9") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -10058,7 +10107,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C96") (unit 1)
+          (reference "C152") (unit 1)
         )
       )
     )
@@ -10090,7 +10139,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R203") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
     )
@@ -10099,7 +10148,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 34.29 41.91 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 3f1fd3da-e61f-4b1d-ad59-9a4a4d1deff8)
-    (property "Reference" "RN3" (at 34.29 33.02 90)
+    (property "Reference" "RN8" (at 34.29 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 34.29 35.56 90)
@@ -10128,7 +10177,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN3") (unit 1)
+          (reference "RN8") (unit 1)
         )
       )
     )
@@ -10137,7 +10186,7 @@
   (symbol (lib_id "power:GND") (at 173.99 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40c8d849-3451-4e10-9049-0ff4271587e8)
-    (property "Reference" "#PWR0181" (at 173.99 163.83 0)
+    (property "Reference" "#PWR0175" (at 173.99 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 158.75 0)
@@ -10153,7 +10202,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -10162,7 +10211,7 @@
   (symbol (lib_id "power:GND") (at 69.85 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e52479-f68d-4daf-8ce6-ad5a9f99bbff)
-    (property "Reference" "#PWR0100" (at 76.2 50.8 0)
+    (property "Reference" "#PWR0149" (at 76.2 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 50.8 90)
@@ -10178,7 +10227,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -10187,7 +10236,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:PCAL6524") (at 171.45 85.09 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 40e89ea6-8c41-48d3-bf0a-22a8e1e0bf8a)
-    (property "Reference" "U74" (at 173.6441 125.73 0)
+    (property "Reference" "U55" (at 173.6441 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PCAL6524HEAZ" (at 173.6441 128.27 0)
@@ -10205,42 +10254,42 @@
     (property "JLCPCB BOM" "0" (at 171.45 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 087a34ab-679a-415e-bee7-b864eaf8eaa9))
-    (pin "15" (uuid 20421b7f-11f0-4d38-bd12-51f9151a793a))
+    (pin "1" (uuid ba8b6b59-d437-4015-bc6f-73721bdde03c))
+    (pin "10" (uuid 0b767b59-47c3-4988-b9a0-78a629e7d3f4))
+    (pin "11" (uuid d9aae38b-c2a4-4fe3-ab02-ef8be4e92085))
     (pin "12" (uuid 12c61136-008f-4c0a-a290-4936bf754693))
     (pin "13" (uuid 4e654c32-ac0b-4d33-b1f4-81c0fd92da5e))
-    (pin "17" (uuid 797a18ff-e1b6-4d10-81bf-20ce36d95716))
-    (pin "1" (uuid ba8b6b59-d437-4015-bc6f-73721bdde03c))
-    (pin "4" (uuid 335ef62b-1e10-4fa3-8b8a-cab31dacea9b))
-    (pin "7" (uuid 2ce89cb8-a8a4-4535-8ed2-282f9e45193a))
-    (pin "29" (uuid c28c325c-483e-4910-b3a8-028c830d5896))
-    (pin "19" (uuid b84afd38-e343-4f00-b964-d39b6733e208))
-    (pin "11" (uuid d9aae38b-c2a4-4fe3-ab02-ef8be4e92085))
-    (pin "6" (uuid 13062028-2287-49af-86e9-57e45a2b5ccf))
-    (pin "20" (uuid 4d84bd2e-343d-4d48-861e-c0219d8461f4))
-    (pin "26" (uuid ce598789-7622-4c29-81f4-8ffab3027ad2))
-    (pin "23" (uuid d696186b-8978-4dea-a944-07a614de2876))
-    (pin "31" (uuid 2d435dcd-747b-4034-8b23-ac5dfa45f5fe))
-    (pin "18" (uuid 96a519d1-2d11-4733-a215-a88d3f0aa2a0))
-    (pin "28" (uuid d432eff6-30c1-465d-8d02-34b173e4ef50))
-    (pin "3" (uuid ccb6b5cd-763e-4d24-85e2-e9828f63e08a))
-    (pin "32" (uuid c2ada9ea-a830-4364-9919-af35a951faa8))
-    (pin "21" (uuid 646fee6a-6b65-4ac1-b07d-6db6a9d2eebe))
-    (pin "5" (uuid f9b84d8b-fa63-46ec-b612-7e32ad01483f))
     (pin "14" (uuid b2d85406-fd8d-4161-a913-7200d4053a46))
-    (pin "8" (uuid 37095f2b-6a76-4faf-adb7-7957937a4d7c))
-    (pin "24" (uuid 600fb6a5-39f8-4744-88fc-eb29ece40ed8))
-    (pin "27" (uuid 15db0ec8-dd9c-4bd5-9ebb-62714b606d03))
+    (pin "15" (uuid 20421b7f-11f0-4d38-bd12-51f9151a793a))
     (pin "16" (uuid 383a1816-5d6b-4fe8-ae27-a6c66d0be825))
-    (pin "30" (uuid fa022698-081b-4a23-9f65-68b33c64e104))
-    (pin "10" (uuid 0b767b59-47c3-4988-b9a0-78a629e7d3f4))
+    (pin "17" (uuid 797a18ff-e1b6-4d10-81bf-20ce36d95716))
+    (pin "18" (uuid 96a519d1-2d11-4733-a215-a88d3f0aa2a0))
+    (pin "19" (uuid b84afd38-e343-4f00-b964-d39b6733e208))
+    (pin "2" (uuid 087a34ab-679a-415e-bee7-b864eaf8eaa9))
+    (pin "20" (uuid 4d84bd2e-343d-4d48-861e-c0219d8461f4))
+    (pin "21" (uuid 646fee6a-6b65-4ac1-b07d-6db6a9d2eebe))
     (pin "22" (uuid fb316a95-c60e-41d1-928f-8f86817896d8))
+    (pin "23" (uuid d696186b-8978-4dea-a944-07a614de2876))
+    (pin "24" (uuid 600fb6a5-39f8-4744-88fc-eb29ece40ed8))
     (pin "25" (uuid ae231ffd-81f8-40c9-817c-071a9933baa9))
+    (pin "26" (uuid ce598789-7622-4c29-81f4-8ffab3027ad2))
+    (pin "27" (uuid 15db0ec8-dd9c-4bd5-9ebb-62714b606d03))
+    (pin "28" (uuid d432eff6-30c1-465d-8d02-34b173e4ef50))
+    (pin "29" (uuid c28c325c-483e-4910-b3a8-028c830d5896))
+    (pin "3" (uuid ccb6b5cd-763e-4d24-85e2-e9828f63e08a))
+    (pin "30" (uuid fa022698-081b-4a23-9f65-68b33c64e104))
+    (pin "31" (uuid 2d435dcd-747b-4034-8b23-ac5dfa45f5fe))
+    (pin "32" (uuid c2ada9ea-a830-4364-9919-af35a951faa8))
+    (pin "4" (uuid 335ef62b-1e10-4fa3-8b8a-cab31dacea9b))
+    (pin "5" (uuid f9b84d8b-fa63-46ec-b612-7e32ad01483f))
+    (pin "6" (uuid 13062028-2287-49af-86e9-57e45a2b5ccf))
+    (pin "7" (uuid 2ce89cb8-a8a4-4535-8ed2-282f9e45193a))
+    (pin "8" (uuid 37095f2b-6a76-4faf-adb7-7957937a4d7c))
     (pin "9" (uuid db2a49e8-fd81-4579-b56a-df8f0d28a2ca))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U74") (unit 1)
+          (reference "U55") (unit 1)
         )
       )
     )
@@ -10272,7 +10321,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R144") (unit 1)
+          (reference "R181") (unit 1)
         )
       )
     )
@@ -10315,7 +10364,7 @@
   (symbol (lib_id "power:GND") (at 378.46 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44022c64-689e-44c0-b4dc-7469dea5d7cc)
-    (property "Reference" "#PWR0109" (at 384.81 215.9 0)
+    (property "Reference" "#PWR0188" (at 384.81 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 383.54 215.9 90)
@@ -10331,7 +10380,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -10363,7 +10412,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R201") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -10398,7 +10447,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C140") (unit 1)
+          (reference "C149") (unit 1)
         )
       )
     )
@@ -10465,7 +10514,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C104") (unit 1)
+          (reference "C148") (unit 1)
         )
       )
     )
@@ -10474,7 +10523,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:CY8C9520A") (at 177.8 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c405153-d306-49b5-b42f-1b4d42062711)
-    (property "Reference" "U57" (at 179.9941 17.78 0)
+    (property "Reference" "U48" (at 179.9941 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CY8C9520A" (at 179.9941 20.32 0)
@@ -10489,38 +10538,38 @@
     (property "LCSC Part" "C2953731" (at 179.9941 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "27" (uuid 867b8740-ba8c-4fe7-9ff3-bc7cc50bb0a9))
-    (pin "14" (uuid 925078ae-4ea8-41e2-be30-d22529c66094))
+    (pin "10" (uuid f17ae262-ce8f-44a0-8af2-7b383e461b99))
     (pin "11" (uuid c6a68e5d-b4ff-4196-93ce-941f5d99545b))
     (pin "12" (uuid bfe2d2bc-5334-4eaf-a8da-6d7074c230cb))
-    (pin "7" (uuid 184833ff-291b-4a09-860d-1f9dbbda0fd0))
-    (pin "16" (uuid 29a54ab8-344d-4df0-a45e-5f9f37c2c47b))
-    (pin "26" (uuid c0d33c40-62c6-401b-90da-0c8c0ff9c310))
-    (pin "4" (uuid e4499922-1d60-4cfe-9d37-7ed045862404))
-    (pin "9" (uuid 8f3c1b3f-8fd8-4d06-b4d8-df0d64491cc4))
-    (pin "22" (uuid 26c7d478-fffd-4e40-82f2-e51b15600904))
-    (pin "18" (uuid a2f7d1c2-8039-4d18-a461-831162ad7c44))
-    (pin "8" (uuid 32b9aa3e-315f-47e7-aa6d-43196dde4d24))
-    (pin "5" (uuid 152ba39a-fb48-4634-b302-4256a152c0ea))
     (pin "13" (uuid d3243332-18e2-4495-ba8d-657ba2395042))
+    (pin "14" (uuid 925078ae-4ea8-41e2-be30-d22529c66094))
     (pin "15" (uuid 137bd136-3970-441f-813c-7417b3093c38))
-    (pin "19" (uuid 8d17fdd3-dc3b-4b0e-a770-9db4a245ae24))
-    (pin "10" (uuid f17ae262-ce8f-44a0-8af2-7b383e461b99))
-    (pin "24" (uuid e4b465f5-5ba8-482e-9951-bdf381943f1b))
-    (pin "1" (uuid fcfe71a2-5ff7-4c86-8d05-91afc31f73ef))
+    (pin "16" (uuid 29a54ab8-344d-4df0-a45e-5f9f37c2c47b))
     (pin "17" (uuid 60156150-4d0a-48e8-a16f-49cdfdb58483))
-    (pin "23" (uuid 00fb6889-b673-48e1-b117-de0e265e0380))
-    (pin "6" (uuid 2b21daa1-cdaa-4217-9e58-2edfa4793b7d))
-    (pin "28" (uuid ab28e49f-9c83-4487-8188-8c9377b35849))
+    (pin "18" (uuid a2f7d1c2-8039-4d18-a461-831162ad7c44))
+    (pin "19" (uuid 8d17fdd3-dc3b-4b0e-a770-9db4a245ae24))
     (pin "2" (uuid ea670253-872f-4153-a16c-8b3297062824))
     (pin "20" (uuid 41312716-9ed8-4be6-8a00-73732824ba65))
     (pin "21" (uuid f48e446a-bdd1-45af-9b6b-bcd1500e695d))
-    (pin "3" (uuid 15fff104-1318-436e-a37d-592a8b5a381c))
+    (pin "22" (uuid 26c7d478-fffd-4e40-82f2-e51b15600904))
+    (pin "23" (uuid 00fb6889-b673-48e1-b117-de0e265e0380))
+    (pin "24" (uuid e4b465f5-5ba8-482e-9951-bdf381943f1b))
     (pin "25" (uuid 4bf17233-cc87-4885-aa3e-dabd71abcbc6))
+    (pin "26" (uuid c0d33c40-62c6-401b-90da-0c8c0ff9c310))
+    (pin "27" (uuid 867b8740-ba8c-4fe7-9ff3-bc7cc50bb0a9))
+    (pin "28" (uuid ab28e49f-9c83-4487-8188-8c9377b35849))
+    (pin "3" (uuid 15fff104-1318-436e-a37d-592a8b5a381c))
+    (pin "4" (uuid e4499922-1d60-4cfe-9d37-7ed045862404))
+    (pin "5" (uuid 152ba39a-fb48-4634-b302-4256a152c0ea))
+    (pin "6" (uuid 2b21daa1-cdaa-4217-9e58-2edfa4793b7d))
+    (pin "7" (uuid 184833ff-291b-4a09-860d-1f9dbbda0fd0))
+    (pin "8" (uuid 32b9aa3e-315f-47e7-aa6d-43196dde4d24))
+    (pin "9" (uuid 8f3c1b3f-8fd8-4d06-b4d8-df0d64491cc4))
+    (pin "1" (uuid fcfe71a2-5ff7-4c86-8d05-91afc31f73ef))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U57") (unit 1)
+          (reference "U48") (unit 1)
         )
       )
     )
@@ -10529,7 +10578,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 39.37 80.01 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 4d53f07d-10a0-4100-87c9-cc781a32c24a)
-    (property "Reference" "RN4" (at 39.37 71.12 90)
+    (property "Reference" "RN9" (at 39.37 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 39.37 73.66 90)
@@ -10558,7 +10607,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN4") (unit 1)
+          (reference "RN9") (unit 1)
         )
       )
     )
@@ -10567,7 +10616,7 @@
   (symbol (lib_id "power:GND") (at 340.36 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e8cf811-800d-499b-8071-13c8a71a6ac5)
-    (property "Reference" "#PWR092" (at 340.36 64.77 0)
+    (property "Reference" "#PWR0152" (at 340.36 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 340.36 62.23 0)
@@ -10583,7 +10632,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -10592,7 +10641,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 341.63 208.28 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4eb28f6c-aaad-4311-9902-c8b3bd01b11c)
-    (property "Reference" "RN1" (at 341.63 199.39 90)
+    (property "Reference" "RN19" (at 341.63 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 341.63 201.93 90)
@@ -10621,7 +10670,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN1") (unit 1)
+          (reference "RN19") (unit 1)
         )
       )
     )
@@ -10687,7 +10736,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R189") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -10696,7 +10745,7 @@
   (symbol (lib_id "power:GND") (at 257.81 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 505b191e-9585-445b-91ce-d38d0c287b06)
-    (property "Reference" "#PWR0154" (at 257.81 83.82 0)
+    (property "Reference" "#PWR0159" (at 257.81 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 77.47 0)
@@ -10712,7 +10761,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -10721,7 +10770,7 @@
   (symbol (lib_id "power:GND") (at 186.69 275.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 515aed0c-37ae-4bf8-bf4d-5dab94885e57)
-    (property "Reference" "#PWR0187" (at 186.69 281.94 0)
+    (property "Reference" "#PWR0200" (at 186.69 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 278.13 0)
@@ -10737,7 +10786,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0187") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -10746,7 +10795,7 @@
   (symbol (lib_id "power:GND") (at 289.56 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53b215d3-279e-402a-a1c2-16ed9383b9ee)
-    (property "Reference" "#PWR0101" (at 295.91 215.9 0)
+    (property "Reference" "#PWR0187" (at 295.91 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 215.9 90)
@@ -10762,7 +10811,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
     )
@@ -10797,7 +10846,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C141") (unit 1)
+          (reference "C150") (unit 1)
         )
       )
     )
@@ -10806,7 +10855,7 @@
   (symbol (lib_id "power:GND") (at 116.84 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 576dfc2b-5c01-4cd9-9bfd-7e063b108b87)
-    (property "Reference" "#PWR0249" (at 116.84 57.15 0)
+    (property "Reference" "#PWR0150" (at 116.84 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 52.07 90)
@@ -10822,7 +10871,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0249") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "#PWR0224") (unit 1)
@@ -10892,7 +10941,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R148") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -10924,7 +10973,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R146") (unit 1)
+          (reference "R172") (unit 1)
         )
       )
     )
@@ -10956,7 +11005,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R165") (unit 1)
+          (reference "R175") (unit 1)
         )
       )
     )
@@ -10988,7 +11037,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R105") (unit 1)
+          (reference "R190") (unit 1)
         )
       )
     )
@@ -10997,7 +11046,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:THVD1450") (at 375.92 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59a060ab-f7ab-4286-b78e-1c44fa930699)
-    (property "Reference" "U30" (at 378.1141 55.88 0)
+    (property "Reference" "U51" (at 378.1141 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "THVD1450DRBR" (at 378.1141 58.42 0)
@@ -11024,7 +11073,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U30") (unit 1)
+          (reference "U51") (unit 1)
         )
       )
     )
@@ -11056,7 +11105,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R202") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -11065,7 +11114,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 116.84 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d71af84-ee48-4a1b-8fba-79e3b64b918e)
-    (property "Reference" "J7" (at 116.84 27.94 0)
+    (property "Reference" "J5" (at 116.84 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10118194-0001LF" (at 116.84 30.48 0)
@@ -11080,21 +11129,21 @@
     (property "LCSC Part" "C132563" (at 116.84 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "S5" (uuid e8077901-9cc7-419a-84f1-9bb5fbc00bb3))
-    (pin "5" (uuid 1e97867f-f25b-4efc-9ec5-6f78a0130528))
-    (pin "3" (uuid ab8ab6e0-0437-40ff-a92f-cebe47d7f666))
-    (pin "4" (uuid f3b89f05-ad22-4711-af97-3658f7bd5e85))
     (pin "1" (uuid 4d701adb-1ad0-47be-a69c-6ccc3ccbacd7))
     (pin "2" (uuid 77d8e9ad-905a-43ec-b03d-ba41c4654d41))
-    (pin "S4" (uuid b539797b-50d0-45d3-9be6-97bc5d2f72d9))
-    (pin "S3" (uuid e5ece303-92b8-4b9f-80de-1e25417bf362))
+    (pin "3" (uuid ab8ab6e0-0437-40ff-a92f-cebe47d7f666))
+    (pin "4" (uuid f3b89f05-ad22-4711-af97-3658f7bd5e85))
+    (pin "5" (uuid 1e97867f-f25b-4efc-9ec5-6f78a0130528))
     (pin "S1" (uuid bee7f03c-a111-43c2-afea-73eb167fc352))
     (pin "S2" (uuid a22e2e80-8d36-4c5d-85e2-d98da57487ca))
+    (pin "S3" (uuid e5ece303-92b8-4b9f-80de-1e25417bf362))
+    (pin "S4" (uuid b539797b-50d0-45d3-9be6-97bc5d2f72d9))
+    (pin "S5" (uuid e8077901-9cc7-419a-84f1-9bb5fbc00bb3))
     (pin "S6" (uuid 011f761b-3e25-4d0d-9f1b-832acaf229a1))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "J7") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -11103,7 +11152,7 @@
   (symbol (lib_id "power:GND") (at 341.63 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f72ff3a-2b27-49be-aee9-775b389d1842)
-    (property "Reference" "#PWR099" (at 341.63 184.15 0)
+    (property "Reference" "#PWR0183" (at 341.63 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.17 177.8 0)
@@ -11119,7 +11168,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -11128,7 +11177,7 @@
   (symbol (lib_id "power:GND") (at 340.36 247.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f760d06-f75c-42be-b35b-633dcb4d4cce)
-    (property "Reference" "#PWR0121" (at 346.71 247.65 0)
+    (property "Reference" "#PWR0196" (at 346.71 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 345.44 247.65 90)
@@ -11144,7 +11193,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
     )
@@ -11179,7 +11228,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C134") (unit 1)
+          (reference "C161") (unit 1)
         )
       )
     )
@@ -11188,7 +11237,7 @@
   (symbol (lib_id "power:GND") (at 71.12 280.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 636fd41a-6959-4c51-a2d8-346383314fca)
-    (property "Reference" "#PWR0190" (at 71.12 287.02 0)
+    (property "Reference" "#PWR0201" (at 71.12 287.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 281.94 0)
@@ -11204,7 +11253,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0190") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -11239,7 +11288,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C94") (unit 1)
+          (reference "C147") (unit 1)
         )
       )
     )
@@ -11248,7 +11297,7 @@
   (symbol (lib_id "power:GND") (at 375.92 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63f31975-b875-43d6-926d-5b62b17e4ff1)
-    (property "Reference" "#PWR091" (at 375.92 87.63 0)
+    (property "Reference" "#PWR0161" (at 375.92 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 378.46 81.28 0)
@@ -11264,7 +11313,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -11296,7 +11345,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R65") (unit 1)
+          (reference "R215") (unit 1)
         )
       )
     )
@@ -11305,7 +11354,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXU0202-Q1") (at 341.63 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65508343-ba5a-45e7-b19e-314c1e71e038)
-    (property "Reference" "U35" (at 326.39 176.53 0)
+    (property "Reference" "U61" (at 326.39 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXU0202DTTR" (at 332.74 179.07 0)
@@ -11331,7 +11380,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U35") (unit 1)
+          (reference "U61") (unit 1)
         )
       )
     )
@@ -11340,7 +11389,7 @@
   (symbol (lib_id "power:GND") (at 400.05 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65a87447-fac6-4a15-b39e-407d2f087819)
-    (property "Reference" "#PWR098" (at 400.05 113.03 0)
+    (property "Reference" "#PWR0166" (at 400.05 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 400.05 111.76 0)
@@ -11356,7 +11405,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -11365,7 +11414,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 375.92 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68306d73-3f46-4752-a27a-4465b8e0f346)
-    (property "Reference" "U32" (at 381 158.75 0)
+    (property "Reference" "U63" (at 381 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 392.43 161.29 0)
@@ -11399,7 +11448,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U32") (unit 1)
+          (reference "U63") (unit 1)
         )
       )
     )
@@ -11408,7 +11457,7 @@
   (symbol (lib_id "power:GND") (at 269.24 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69a1cafa-4b85-41e1-acc3-948741f1be62)
-    (property "Reference" "#PWR0150" (at 269.24 130.81 0)
+    (property "Reference" "#PWR0171" (at 269.24 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.05 127 0)
@@ -11424,7 +11473,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -11456,7 +11505,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R204") (unit 1)
+          (reference "R189") (unit 1)
         )
       )
     )
@@ -11488,7 +11537,41 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R164") (unit 1)
+          (reference "R171") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 215.9 242.57 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 6ae4f9ac-0eb9-4654-ab79-91657d9c8887)
+    (property "Reference" "TP1" (at 214.63 229.87 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 214.63 232.41 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 220.98 242.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.98 242.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB BOM" "0" (at 215.9 242.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c3d6e4b-064c-4642-9488-261479428fbc))
+    (instances
+      (project "ESLGSU"
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/09a64186-e4de-4db7-b903-c6397ff9a54d"
+          (reference "TP1") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/e09c623d-ecce-4ff2-a230-f07fbe15280b"
+          (reference "TP8") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
+          (reference "TP31") (unit 1)
         )
       )
     )
@@ -11497,7 +11580,7 @@
   (symbol (lib_id "power:GND") (at 210.82 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b5ca7ad-5afe-458e-836d-d7ce5afd8be5)
-    (property "Reference" "#PWR0183" (at 210.82 166.37 0)
+    (property "Reference" "#PWR0176" (at 210.82 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 165.1 0)
@@ -11513,7 +11596,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0183") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -11548,7 +11631,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C135") (unit 1)
+          (reference "C162") (unit 1)
         )
       )
     )
@@ -11580,7 +11663,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R71") (unit 1)
+          (reference "R225") (unit 1)
         )
       )
     )
@@ -11589,7 +11672,7 @@
   (symbol (lib_id "power:GND") (at 30.48 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bcdfc65-7a1b-45c2-9b7e-c004883c49b5)
-    (property "Reference" "#PWR0160" (at 24.13 113.03 0)
+    (property "Reference" "#PWR0168" (at 24.13 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 15.24 113.03 90)
@@ -11605,7 +11688,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -11614,7 +11697,7 @@
   (symbol (lib_id "power:GND") (at 186.69 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bf03d5e-c7f8-45af-8348-e5d3b0af3d8b)
-    (property "Reference" "#PWR0186" (at 186.69 256.54 0)
+    (property "Reference" "#PWR0197" (at 186.69 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 255.27 0)
@@ -11630,7 +11713,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -11662,7 +11745,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R140") (unit 1)
+          (reference "R193") (unit 1)
         )
       )
     )
@@ -11697,7 +11780,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C110") (unit 1)
+          (reference "C168") (unit 1)
         )
       )
     )
@@ -11729,7 +11812,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R137") (unit 1)
+          (reference "R185") (unit 1)
         )
       )
     )
@@ -11761,7 +11844,7 @@
           (reference "C29") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C166") (unit 1)
+          (reference "C186") (unit 1)
         )
       )
     )
@@ -11793,7 +11876,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C175") (unit 1)
+          (reference "C192") (unit 1)
         )
       )
     )
@@ -11802,7 +11885,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2115ADRBR") (at 191.77 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f4e1074-9689-4451-9c27-cf47c2a2c5fc)
-    (property "Reference" "U73" (at 208.28 182.3019 0)
+    (property "Reference" "U65" (at 208.28 182.3019 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2115ADRBR" (at 208.28 184.8419 0)
@@ -11829,7 +11912,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U73") (unit 1)
+          (reference "U65") (unit 1)
         )
       )
     )
@@ -11861,7 +11944,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R168") (unit 1)
+          (reference "R200") (unit 1)
         )
       )
     )
@@ -11896,7 +11979,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R93") (unit 1)
+          (reference "R168") (unit 1)
         )
       )
     )
@@ -11905,13 +11988,13 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:ESD7004MUTAG") (at 120.65 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73c7f769-0cf4-4952-8def-cc4052395d5d)
-    (property "Reference" "U81" (at 120.65 55.88 0)
+    (property "Reference" "U54" (at 120.65 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESD7004MUTAG" (at 120.65 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 72.39 0)
+    (property "Footprint" "ESLGSU_Parts_Lib:UDFN10_ESD" (at 120.65 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 120.65 72.39 0)
@@ -11920,20 +12003,20 @@
     (property "LCSC Part" "C1972960" (at 120.65 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
+    (pin "1" (uuid 1de484b0-a09c-49a1-bbf7-5bd0b0ae40f5))
+    (pin "10" (uuid 80c3e5c8-c5b5-4093-9771-a2e1b0f198fd))
+    (pin "2" (uuid dfd96fb9-0391-40c2-8f1f-8abefb2cd8c2))
+    (pin "3" (uuid 215af9dc-0d84-46e0-8f64-6131ead99372))
     (pin "4" (uuid b82ae094-1b68-4fda-9bce-e0f7df7ea650))
     (pin "5" (uuid 00dbec11-ff5a-40b6-8d7a-3f7840c4aa04))
     (pin "6" (uuid 778c6227-0301-4676-909e-75c818bbbf5d))
-    (pin "1" (uuid 1de484b0-a09c-49a1-bbf7-5bd0b0ae40f5))
     (pin "7" (uuid c360c559-4040-492d-af82-19631ec0fc6b))
-    (pin "10" (uuid 80c3e5c8-c5b5-4093-9771-a2e1b0f198fd))
     (pin "8" (uuid e1b4c43a-e398-4548-a845-7010a1205440))
     (pin "9" (uuid d2512981-0791-4f7b-ad31-f5840e06deaf))
-    (pin "2" (uuid dfd96fb9-0391-40c2-8f1f-8abefb2cd8c2))
-    (pin "3" (uuid 215af9dc-0d84-46e0-8f64-6131ead99372))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U81") (unit 1)
+          (reference "U54") (unit 1)
         )
       )
     )
@@ -11965,7 +12048,41 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R178") (unit 1)
+          (reference "R173") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 218.44 203.2 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 75aa58e6-8c44-4a28-b883-3b2e8fca5fd4)
+    (property "Reference" "TP1" (at 215.9 191.77 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 215.9 194.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 223.52 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 223.52 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB BOM" "0" (at 218.44 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c76f28c-c34b-4b5a-8cc0-8c7f40aed62d))
+    (instances
+      (project "ESLGSU"
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/09a64186-e4de-4db7-b903-c6397ff9a54d"
+          (reference "TP1") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/e09c623d-ecce-4ff2-a230-f07fbe15280b"
+          (reference "TP8") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
+          (reference "TP30") (unit 1)
         )
       )
     )
@@ -11997,7 +12114,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R147") (unit 1)
+          (reference "R187") (unit 1)
         )
       )
     )
@@ -12006,7 +12123,7 @@
   (symbol (lib_id "power:GND") (at 74.93 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77c29db8-85c0-4acc-851e-f81f0b70dec7)
-    (property "Reference" "#PWR096" (at 81.28 22.86 0)
+    (property "Reference" "#PWR0142" (at 81.28 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 22.86 90)
@@ -12022,7 +12139,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -12054,7 +12171,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R106") (unit 1)
+          (reference "R191") (unit 1)
         )
       )
     )
@@ -12063,7 +12180,7 @@
   (symbol (lib_id "power:GND") (at 267.97 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78706a39-9ecc-4a0b-9b75-051b39fe259f)
-    (property "Reference" "#PWR0153" (at 267.97 66.04 0)
+    (property "Reference" "#PWR0155" (at 267.97 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 63.5 0)
@@ -12079,7 +12196,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -12088,7 +12205,7 @@
   (symbol (lib_id "power:GND") (at 251.46 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78849aef-0548-4f36-8466-bd8da7ac99b0)
-    (property "Reference" "#PWR0180" (at 251.46 276.86 0)
+    (property "Reference" "#PWR0198" (at 251.46 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 275.59 90)
@@ -12104,7 +12221,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
@@ -12113,7 +12230,7 @@
   (symbol (lib_id "power:GND") (at 250.19 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79883570-d7f8-4b57-97d2-5733afd36f98)
-    (property "Reference" "#PWR0152" (at 250.19 66.04 0)
+    (property "Reference" "#PWR0154" (at 250.19 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 63.5 0)
@@ -12129,7 +12246,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -12161,7 +12278,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C159") (unit 1)
+          (reference "C181") (unit 1)
         )
       )
     )
@@ -12193,7 +12310,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R141") (unit 1)
+          (reference "R196") (unit 1)
         )
       )
     )
@@ -12225,7 +12342,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R169") (unit 1)
+          (reference "R199") (unit 1)
         )
       )
     )
@@ -12234,7 +12351,7 @@
   (symbol (lib_id "power:GND") (at 120.65 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f1fdba5-ac86-487b-a7fe-3400a011e346)
-    (property "Reference" "#PWR0250" (at 120.65 90.17 0)
+    (property "Reference" "#PWR0163" (at 120.65 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 85.09 90)
@@ -12250,7 +12367,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0250") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "#PWR0224") (unit 1)
@@ -12262,13 +12379,13 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:FXMA2102L8X") (at 259.08 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8022812c-15e8-41c6-8638-4a08c63c688f)
-    (property "Reference" "U61" (at 261.2741 142.24 0)
+    (property "Reference" "U59" (at 261.2741 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FXMA2102L8X" (at 261.2741 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 257.81 107.95 0)
+    (property "Footprint" "ESLGSU_Parts_Lib:UQFN8_MICROPAK" (at 257.81 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 257.81 107.95 0)
@@ -12288,7 +12405,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U61") (unit 1)
+          (reference "U59") (unit 1)
         )
       )
     )
@@ -12313,15 +12430,15 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c9cc7796-82ef-4e7b-b1ad-4d78f22d9c76))
-    (pin "3" (uuid a68b8eeb-9c84-4658-82fc-0bf676c97d77))
     (pin "2" (uuid b739fdd0-057c-4116-b5dd-3dd2fee123ab))
+    (pin "3" (uuid a68b8eeb-9c84-4658-82fc-0bf676c97d77))
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "Y1") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "Y2") (unit 1)
+          (reference "Y3") (unit 1)
         )
       )
     )
@@ -12330,7 +12447,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXU0202-Q1") (at 257.81 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 848daff2-c0e5-47d6-973b-3358516b75b9)
-    (property "Reference" "U62" (at 242.57 76.2 0)
+    (property "Reference" "U50" (at 242.57 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXU0202DTTR" (at 248.92 78.74 0)
@@ -12356,7 +12473,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U62") (unit 1)
+          (reference "U50") (unit 1)
         )
       )
     )
@@ -12391,7 +12508,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R190") (unit 1)
+          (reference "R213") (unit 1)
         )
       )
     )
@@ -12400,7 +12517,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXU0202-Q1") (at 347.98 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 852395e9-8c47-4ea9-9d9d-d89088b39273)
-    (property "Reference" "U33" (at 332.74 74.93 0)
+    (property "Reference" "U49" (at 332.74 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXU0202DTTR" (at 339.09 77.47 0)
@@ -12426,7 +12543,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U33") (unit 1)
+          (reference "U49") (unit 1)
         )
       )
     )
@@ -12461,7 +12578,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R198") (unit 1)
+          (reference "R227") (unit 1)
         )
       )
     )
@@ -12493,7 +12610,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R118") (unit 1)
+          (reference "R174") (unit 1)
         )
       )
     )
@@ -12502,7 +12619,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 252.73 208.28 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 8d56f875-cbde-4d93-b575-f5b3bde00dcc)
-    (property "Reference" "RN8" (at 252.73 199.39 90)
+    (property "Reference" "RN18" (at 252.73 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 252.73 201.93 90)
@@ -12531,7 +12648,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN8") (unit 1)
+          (reference "RN18") (unit 1)
         )
       )
     )
@@ -12566,7 +12683,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R199") (unit 1)
+          (reference "R229") (unit 1)
         )
       )
     )
@@ -12598,7 +12715,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R180") (unit 1)
+          (reference "R221") (unit 1)
         )
       )
     )
@@ -12633,7 +12750,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C102") (unit 1)
+          (reference "C171") (unit 1)
         )
       )
     )
@@ -12665,7 +12782,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R173") (unit 1)
+          (reference "R228") (unit 1)
         )
       )
     )
@@ -12674,7 +12791,7 @@
   (symbol (lib_id "power:GND") (at 257.81 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96cfaece-8114-4cb8-8c94-368014881012)
-    (property "Reference" "#PWR0172" (at 264.16 45.72 0)
+    (property "Reference" "#PWR0146" (at 264.16 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 44.45 90)
@@ -12690,7 +12807,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0172") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -12725,7 +12842,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R94") (unit 1)
+          (reference "R178") (unit 1)
         )
       )
     )
@@ -12734,7 +12851,7 @@
   (symbol (lib_id "power:GND") (at 375.92 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a009ca5-44a7-4961-b7af-f2973bf12d12)
-    (property "Reference" "#PWR097" (at 375.92 194.31 0)
+    (property "Reference" "#PWR0185" (at 375.92 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 379.73 190.5 0)
@@ -12750,7 +12867,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -12785,7 +12902,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C164") (unit 1)
+          (reference "C174") (unit 1)
         )
       )
     )
@@ -12820,7 +12937,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C163") (unit 1)
+          (reference "C173") (unit 1)
         )
       )
     )
@@ -12829,7 +12946,7 @@
   (symbol (lib_id "power:GND") (at 186.69 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e44a1e7-aa8e-4b9f-a944-c428eb152ff5)
-    (property "Reference" "#PWR0184" (at 186.69 226.06 0)
+    (property "Reference" "#PWR0189" (at 186.69 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 224.79 0)
@@ -12845,7 +12962,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
     )
@@ -12854,7 +12971,7 @@
   (symbol (lib_id "power:GND") (at 191.77 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f855758-c69e-4fa2-b67c-7167e5affea3)
-    (property "Reference" "#PWR0179" (at 191.77 182.88 0)
+    (property "Reference" "#PWR0181" (at 191.77 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 181.61 0)
@@ -12870,7 +12987,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -12879,7 +12996,7 @@
   (symbol (lib_id "power:GND") (at 251.46 247.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fb71a8e-f78c-43f8-91ec-7152af916197)
-    (property "Reference" "#PWR0104" (at 257.81 247.65 0)
+    (property "Reference" "#PWR0195" (at 257.81 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 247.65 90)
@@ -12895,7 +13012,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
     )
@@ -12904,7 +13021,7 @@
   (symbol (lib_id "power:GND") (at 177.8 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a04e125d-3559-4ba0-9c5e-dc37f6605b06)
-    (property "Reference" "#PWR0188" (at 177.8 77.47 0)
+    (property "Reference" "#PWR0156" (at 177.8 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 72.39 0)
@@ -12920,7 +13037,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0188") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -12929,7 +13046,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TCAN1051GVDRBRQ1") (at 278.13 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0c416f3-5064-4bad-a497-f27fa32bfa71)
-    (property "Reference" "U64" (at 280.3241 20.32 0)
+    (property "Reference" "U46" (at 280.3241 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCAN1051GVDRBRQ" (at 280.3241 22.86 0)
@@ -12956,7 +13073,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U64") (unit 1)
+          (reference "U46") (unit 1)
         )
       )
     )
@@ -12965,7 +13082,7 @@
   (symbol (lib_id "power:GND") (at 254 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0f4341e-2f9d-491a-9e6e-95d5f6601460)
-    (property "Reference" "#PWR0147" (at 254 184.15 0)
+    (property "Reference" "#PWR0182" (at 254 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 177.8 0)
@@ -12981,7 +13098,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -13013,7 +13130,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R186") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -13022,7 +13139,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 370.84 135.89 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid a35e2302-ab7c-4401-92a9-ccdb56c7a948)
-    (property "Reference" "RN6" (at 378.46 139.7 90)
+    (property "Reference" "RN12" (at 378.46 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 378.46 142.24 90)
@@ -13047,7 +13164,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN6") (unit 1)
+          (reference "RN12") (unit 1)
         )
       )
     )
@@ -13056,7 +13173,7 @@
   (symbol (lib_id "power:GND") (at 284.48 243.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a619bffe-6337-4d17-b5fd-4157847c3b29)
-    (property "Reference" "#PWR0103" (at 290.83 243.84 0)
+    (property "Reference" "#PWR0192" (at 290.83 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 243.84 90)
@@ -13072,7 +13189,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
     )
@@ -13107,7 +13224,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R143") (unit 1)
+          (reference "R179") (unit 1)
         )
       )
     )
@@ -13116,7 +13233,7 @@
   (symbol (lib_id "power:GND") (at 21.59 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a930ce06-0309-434f-a2f4-dd3208beaafd)
-    (property "Reference" "#PWR0225" (at 15.24 121.92 0)
+    (property "Reference" "#PWR0169" (at 15.24 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 124.46 90)
@@ -13132,7 +13249,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0225") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "#PWR0224") (unit 1)
@@ -13144,7 +13261,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 67.31 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad073a0a-6a43-429b-9ae0-f57ac4c14341)
-    (property "Reference" "U34" (at 65.1159 55.88 0)
+    (property "Reference" "U53" (at 65.1159 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 65.1159 58.42 0)
@@ -13178,7 +13295,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U34") (unit 1)
+          (reference "U53") (unit 1)
         )
       )
     )
@@ -13213,7 +13330,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C99") (unit 1)
+          (reference "C151") (unit 1)
         )
       )
     )
@@ -13245,7 +13362,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R142") (unit 1)
+          (reference "R197") (unit 1)
         )
       )
     )
@@ -13254,7 +13371,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 259.08 186.69 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid af85096a-e0df-4c70-89fe-352eceef40d5)
-    (property "Reference" "RN13" (at 259.08 180.34 90)
+    (property "Reference" "RN16" (at 259.08 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 259.08 182.88 90)
@@ -13279,7 +13396,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN13") (unit 1)
+          (reference "RN16") (unit 1)
         )
       )
     )
@@ -13288,7 +13405,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 288.29 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af8cc7ea-d4f2-4950-813c-2b9a41ac1add)
-    (property "Reference" "U59" (at 293.37 158.75 0)
+    (property "Reference" "U62" (at 293.37 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 304.8 161.29 0)
@@ -13322,7 +13439,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U59") (unit 1)
+          (reference "U62") (unit 1)
         )
       )
     )
@@ -13331,7 +13448,7 @@
   (symbol (lib_id "power:GND") (at 350.52 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afee61d7-da69-4668-8ece-5f12cbf0d53f)
-    (property "Reference" "#PWR095" (at 350.52 166.37 0)
+    (property "Reference" "#PWR0180" (at 350.52 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 354.33 162.56 0)
@@ -13347,7 +13464,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -13356,7 +13473,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 345.44 81.28 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid affcd302-cb53-4340-b2e0-4c470218693b)
-    (property "Reference" "RN5" (at 353.06 85.09 90)
+    (property "Reference" "RN10" (at 353.06 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 353.06 87.63 90)
@@ -13381,7 +13498,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN5") (unit 1)
+          (reference "RN10") (unit 1)
         )
       )
     )
@@ -13390,7 +13507,7 @@
   (symbol (lib_id "power:GND") (at 171.45 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0dfcff8-b823-4dd9-b43b-f2ec3ce2f8a8)
-    (property "Reference" "#PWR0189" (at 171.45 132.08 0)
+    (property "Reference" "#PWR0172" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 127 0)
@@ -13406,7 +13523,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -13438,7 +13555,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R116") (unit 1)
+          (reference "R223") (unit 1)
         )
       )
     )
@@ -13447,7 +13564,7 @@
   (symbol (lib_id "power:GND") (at 354.33 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b424460c-a8a8-4574-a247-e8946b117941)
-    (property "Reference" "#PWR0171" (at 360.68 44.45 0)
+    (property "Reference" "#PWR0145" (at 360.68 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 360.68 43.18 90)
@@ -13463,7 +13580,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -13472,7 +13589,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 284.48 229.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid baa2d185-c6b7-422f-8ea4-1768facc7c65)
-    (property "Reference" "U45" (at 282.2859 213.36 0)
+    (property "Reference" "U68" (at 282.2859 213.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 282.2859 215.9 0)
@@ -13506,7 +13623,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U45") (unit 1)
+          (reference "U68") (unit 1)
         )
       )
     )
@@ -13541,7 +13658,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C133") (unit 1)
+          (reference "C170") (unit 1)
         )
       )
     )
@@ -13576,7 +13693,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R237") (unit 1)
+          (reference "R198") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "R236") (unit 1)
@@ -13588,13 +13705,13 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:FXMA2102L8X") (at 347.98 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcc3bec5-5ea1-454b-9a41-732c486d9ec0)
-    (property "Reference" "U39" (at 350.1741 140.97 0)
+    (property "Reference" "U58" (at 350.1741 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FXMA2102L8X" (at 350.1741 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 346.71 106.68 0)
+    (property "Footprint" "ESLGSU_Parts_Lib:UQFN8_MICROPAK" (at 346.71 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 346.71 106.68 0)
@@ -13614,7 +13731,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U39") (unit 1)
+          (reference "U58") (unit 1)
         )
       )
     )
@@ -13623,7 +13740,7 @@
   (symbol (lib_id "power:GND") (at 335.28 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdbda5d2-1120-4bcf-ba47-c0eff810c238)
-    (property "Reference" "#PWR093" (at 335.28 166.37 0)
+    (property "Reference" "#PWR0179" (at 335.28 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 339.09 161.29 0)
@@ -13639,7 +13756,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -13648,7 +13765,7 @@
   (symbol (lib_id "power:GND") (at 288.29 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bec6ce25-df82-467f-a455-6a08afefa3b2)
-    (property "Reference" "#PWR0148" (at 288.29 194.31 0)
+    (property "Reference" "#PWR0184" (at 288.29 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 190.5 0)
@@ -13664,7 +13781,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -13699,7 +13816,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C105") (unit 1)
+          (reference "C155") (unit 1)
         )
       )
     )
@@ -13708,7 +13825,7 @@
   (symbol (lib_id "power:GND") (at 363.22 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c057d713-b068-49a7-9efa-05656abbe685)
-    (property "Reference" "#PWR089" (at 363.22 27.94 0)
+    (property "Reference" "#PWR0141" (at 363.22 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 363.22 25.4 0)
@@ -13724,7 +13841,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -13759,7 +13876,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C111") (unit 1)
+          (reference "C172") (unit 1)
         )
       )
     )
@@ -13768,7 +13885,7 @@
   (symbol (lib_id "power:GND") (at 72.39 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4c735de-d9b6-4748-b219-56954de99e7a)
-    (property "Reference" "#PWR0105" (at 78.74 58.42 0)
+    (property "Reference" "#PWR0151" (at 78.74 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 58.42 90)
@@ -13784,7 +13901,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -13816,7 +13933,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C168") (unit 1)
+          (reference "C176") (unit 1)
         )
       )
     )
@@ -13848,7 +13965,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C174") (unit 1)
+          (reference "C191") (unit 1)
         )
       )
     )
@@ -13883,7 +14000,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C139") (unit 1)
+          (reference "C154") (unit 1)
         )
       )
     )
@@ -13915,7 +14032,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R114") (unit 1)
+          (reference "R220") (unit 1)
         )
       )
     )
@@ -13947,7 +14064,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R196") (unit 1)
+          (reference "R218") (unit 1)
         )
       )
     )
@@ -13979,7 +14096,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C160") (unit 1)
+          (reference "C182") (unit 1)
         )
       )
     )
@@ -13988,7 +14105,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TCAN1051GVDRBRQ1") (at 374.65 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid caa17e31-01e9-4cc1-8bba-294508bc2fac)
-    (property "Reference" "U29" (at 376.8441 19.05 0)
+    (property "Reference" "U45" (at 376.8441 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCAN1051GVDRBRQ" (at 376.8441 21.59 0)
@@ -14015,7 +14132,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U29") (unit 1)
+          (reference "U45") (unit 1)
         )
       )
     )
@@ -14024,7 +14141,7 @@
   (symbol (lib_id "power:GND") (at 358.14 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc2695c3-de26-4e17-867b-347c5bfe69bb)
-    (property "Reference" "#PWR0111" (at 358.14 129.54 0)
+    (property "Reference" "#PWR0170" (at 358.14 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 361.95 125.73 0)
@@ -14040,7 +14157,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -14049,7 +14166,7 @@
   (symbol (lib_id "power:GND") (at 331.47 227.33 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd00120d-a173-4791-8e0f-ea8d8d2aa48a)
-    (property "Reference" "#PWR0118" (at 325.12 227.33 0)
+    (property "Reference" "#PWR0191" (at 325.12 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 326.39 227.33 90)
@@ -14065,7 +14182,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
     )
@@ -14097,7 +14214,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R96") (unit 1)
+          (reference "R195") (unit 1)
         )
       )
     )
@@ -14106,7 +14223,7 @@
   (symbol (lib_id "power:GND") (at 373.38 243.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce0540de-fa73-4b45-822d-a28f533dafd5)
-    (property "Reference" "#PWR0120" (at 379.73 243.84 0)
+    (property "Reference" "#PWR0193" (at 379.73 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 378.46 243.84 90)
@@ -14122,7 +14239,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
       )
     )
@@ -14157,7 +14274,7 @@
           (reference "R6") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R194") (unit 1)
+          (reference "R222") (unit 1)
         )
       )
     )
@@ -14189,7 +14306,41 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R95") (unit 1)
+          (reference "R180") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 214.63 273.05 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid d32ab61e-d108-498a-9e28-b2917d3a9e41)
+    (property "Reference" "TP1" (at 213.36 260.35 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 213.36 262.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 219.71 273.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 273.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB BOM" "0" (at 214.63 273.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a7ae9e10-4800-42e9-a280-9a3965d1213d))
+    (instances
+      (project "ESLGSU"
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/09a64186-e4de-4db7-b903-c6397ff9a54d"
+          (reference "TP1") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/e09c623d-ecce-4ff2-a230-f07fbe15280b"
+          (reference "TP8") (unit 1)
+        )
+        (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
+          (reference "TP32") (unit 1)
         )
       )
     )
@@ -14224,7 +14375,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C97") (unit 1)
+          (reference "C164") (unit 1)
         )
       )
     )
@@ -14259,7 +14410,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C191") (unit 1)
+          (reference "C156") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/c41d3519-67b9-43b9-97c4-d20822b3d6ca"
           (reference "C181") (unit 1)
@@ -14294,7 +14445,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R187") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -14303,7 +14454,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXU0202-Q1") (at 254 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ec8f3b-365c-41ce-9fa2-e5e2c633e6d7)
-    (property "Reference" "U58" (at 238.76 176.53 0)
+    (property "Reference" "U60" (at 238.76 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXU0202DTTR" (at 245.11 179.07 0)
@@ -14329,7 +14480,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U58") (unit 1)
+          (reference "U60") (unit 1)
         )
       )
     )
@@ -14364,7 +14515,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C154") (unit 1)
+          (reference "C165") (unit 1)
         )
       )
     )
@@ -14373,7 +14524,7 @@
   (symbol (lib_id "power:GND") (at 358.14 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daaa88aa-f3e0-4652-8e96-bc2f14b166f2)
-    (property "Reference" "#PWR090" (at 358.14 64.77 0)
+    (property "Reference" "#PWR0153" (at 358.14 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.14 62.23 0)
@@ -14389,7 +14540,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -14398,7 +14549,7 @@
   (symbol (lib_id "power:GND") (at 262.89 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dafff02a-f901-4e28-a286-f88b07e12556)
-    (property "Reference" "#PWR0146" (at 262.89 166.37 0)
+    (property "Reference" "#PWR0178" (at 262.89 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 162.56 0)
@@ -14414,7 +14565,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -14446,7 +14597,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R138") (unit 1)
+          (reference "R188") (unit 1)
         )
       )
     )
@@ -14455,7 +14606,7 @@
   (symbol (lib_id "power:GND") (at 191.77 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddf5b4a9-6d72-4e1f-8ffc-044f5a84501f)
-    (property "Reference" "#PWR0182" (at 191.77 208.28 0)
+    (property "Reference" "#PWR0186" (at 191.77 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 207.01 0)
@@ -14471,7 +14622,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -14506,7 +14657,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C155") (unit 1)
+          (reference "C166") (unit 1)
         )
       )
     )
@@ -14541,7 +14692,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C132") (unit 1)
+          (reference "C169") (unit 1)
         )
       )
     )
@@ -14550,7 +14701,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TMUX1574RSVR") (at 386.08 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4773d5a-49fd-4e68-bb03-8270652238ca)
-    (property "Reference" "U31" (at 370.84 99.06 90)
+    (property "Reference" "U56" (at 370.84 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TMUX1574RSVR" (at 370.84 101.6 90)
@@ -14584,7 +14735,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U31") (unit 1)
+          (reference "U56") (unit 1)
         )
       )
     )
@@ -14619,7 +14770,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C101") (unit 1)
+          (reference "C167") (unit 1)
         )
       )
     )
@@ -14628,7 +14779,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 386.08 135.89 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid ece973cd-0d59-4161-95f8-6df7ff575160)
-    (property "Reference" "RN7" (at 393.7 139.7 90)
+    (property "Reference" "RN13" (at 393.7 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 393.7 142.24 90)
@@ -14653,7 +14804,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN7") (unit 1)
+          (reference "RN13") (unit 1)
         )
       )
     )
@@ -14662,7 +14813,7 @@
   (symbol (lib_id "power:GND") (at 283.21 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef2bb0eb-85cf-4957-a099-b2894d7a195b)
-    (property "Reference" "#PWR0157" (at 289.56 46.99 0)
+    (property "Reference" "#PWR0148" (at 289.56 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 45.72 90)
@@ -14678,7 +14829,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -14710,7 +14861,7 @@
           (reference "C29") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C156") (unit 1)
+          (reference "C178") (unit 1)
         )
       )
     )
@@ -14719,7 +14870,7 @@
   (symbol (lib_id "Device:R_Pack02") (at 346.71 186.69 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid f1b0dec7-40c9-4c1a-bdae-f70e41115181)
-    (property "Reference" "RN2" (at 346.71 180.34 90)
+    (property "Reference" "RN17" (at 346.71 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 346.71 182.88 90)
@@ -14744,7 +14895,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "RN2") (unit 1)
+          (reference "RN17") (unit 1)
         )
       )
     )
@@ -14776,7 +14927,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C171") (unit 1)
+          (reference "C188") (unit 1)
         )
       )
     )
@@ -14808,7 +14959,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R136") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -14840,7 +14991,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R104") (unit 1)
+          (reference "R219") (unit 1)
         )
       )
     )
@@ -14849,7 +15000,7 @@
   (symbol (lib_id "ESLGSU_Parts_Lib:TXB0104RUTR") (at 340.36 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f41c1fba-3e5b-414f-8806-babef49521da)
-    (property "Reference" "U46" (at 342.9 222.25 0)
+    (property "Reference" "U67" (at 342.9 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TXB0104RUT" (at 342.9 224.79 0)
@@ -14879,7 +15030,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "U46") (unit 1)
+          (reference "U67") (unit 1)
         )
       )
     )
@@ -14914,7 +15065,7 @@
           (reference "C15") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C136") (unit 1)
+          (reference "C158") (unit 1)
         )
       )
     )
@@ -14923,7 +15074,7 @@
   (symbol (lib_id "power:GND") (at 186.69 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5550df2-13c5-4e8f-b857-a9bb5b70c2ac)
-    (property "Reference" "#PWR0185" (at 186.69 251.46 0)
+    (property "Reference" "#PWR0194" (at 186.69 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 246.38 0)
@@ -14939,7 +15090,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
       )
     )
@@ -14971,7 +15122,7 @@
           (reference "R10") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "R97") (unit 1)
+          (reference "R170") (unit 1)
         )
       )
     )
@@ -14980,7 +15131,7 @@
   (symbol (lib_id "power:GND") (at 242.57 227.33 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9c8e772-ac6b-48a8-a7d7-82db990aa14b)
-    (property "Reference" "#PWR0102" (at 236.22 227.33 0)
+    (property "Reference" "#PWR0190" (at 236.22 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 227.33 90)
@@ -14996,7 +15147,7 @@
     (instances
       (project "ESLGSU"
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )
@@ -15028,7 +15179,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C169") (unit 1)
+          (reference "C177") (unit 1)
         )
       )
     )
@@ -15060,7 +15211,7 @@
           (reference "C25") (unit 1)
         )
         (path "/b556fa32-e0cb-409c-ac85-9f2ac606be79/62656839-ead6-4c9d-b4ee-68fd3b49c6dd"
-          (reference "C173") (unit 1)
+          (reference "C190") (unit 1)
         )
       )
     )
