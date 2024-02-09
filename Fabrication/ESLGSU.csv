@@ -1,83 +1,66 @@
-1;"C91,C38,C18,C41,C59,C77,C42,C24,C86,C74,C36,C40,C56,C58,C60,C22,C76,C75,C54,C87,C72,C78,C20,C57,C23,C90,C21,C39";"C_0805_2012Metric";28;"22u";;;
-2;"R13,R30,R68,R3,R53";"R_0603_1608Metric";5;"5m";;;
-3;"TP6,TP16,TP5,TP13,TP8,TP9,TP17,TP3,TP15,TP14,TP4,TP2,TP1,TP12,TP7";"TestPoint_Pad_D1.5mm";15;"TestPoint";;;
-4;"C51,C95,C49,C107,C10,C12,C31,C25,C50,C100,C61,C43,C111,C110,C96,C79,C106,C34,C13,C69,C70,C89,C98,C33,C104,C52,C68,C7,C14,C85,C94,C5,C67,C15,C3,C16,C99,C105,C97,C32,C93";"C_0402_1005Metric";41;"100n";;;
-5;"C8,C29,C48,C44,C2,C65,C80,C47,C83,C30,C26,C66,C84,C62";"C_0402_1005Metric";14;"1u";;;
-6;"U25";"PI_ZERO_2_W";1;"M20-7812045";;;
-7;"C73,C37,C9,C19,C55,C4";"C_0402_1005Metric";6;"22n";;;
-8;"RN3,RN1,RN4";"R_Array_Concave_4x0402";3;"0R";;;
-9;"U22,U10,U18,U14";"VQFN-HR";4;"TPS259474LRPWR";;;
-10;"R56,R17,R71,R34";"R_0402_1005Metric";4;"14.7K";;;
-11;"C1";"C_0603_1608Metric";1;"100n";;;
-12;"R32,R15,R55,R70";"R_0402_1005Metric";4;"806K";;;
-13;"U44,U31,U34,U47,U32";"T-UQFN-16";5;"TMUX1574RSVR";;;
-14;"U11,U15,U23,U19";"VQFN-HR";4;"LM73100RPWR";;;
-15;"U1";"TSSOP-20_4.4x6.5mm_P0.65mm";1;"TCA9544APWR";;;
-16;"R35,R72";"R_0402_1005Metric";2;"107K";;;
-17;"R103,R118,R95,R97,R100,R98,R114,R119";"R_0402_1005Metric";8;"200K";;;
-18;"U24,U12,U20,U16";"QFN-16-MP28167";4;"MP28167-A";;;
-19;"R74,R59,R38,R21";"R_0402_1005Metric";4;"21.5K";;;
-20;"C63,C27,C81,C45";"C_0402_1005Metric";4;"330p";;;
-21;"R9,R49,R83,R26,R85,R64";"R_0402_1005Metric";6;"100K";;;
-22;"R12,R29";"R_0402_1005Metric";2;"31.6K";;;
-23;"R52,R67";"R_0402_1005Metric";2;"350K";;;
-24;"R6,R47,R46,R7,R24,R62,R23,R61";"R_0402_1005Metric";8;"0R";;;
-25;"C11,C6";"C_0402_1005Metric";2;"1n";;;
-26;"C64,C46,C28,C82";"C_0402_1005Metric";4;"2.2n";;;
-27;"D4,D2,D5,D1,D3,D6";"LED_0603_1608Metric";6;"TZ-P2-0603GTCS1-0.6T";;;
-28;"U33,U35";"SOT833-1-XSON8";2;"TXU0202DTTR";;;
-29;"R45,R81,R40,R78,R79,R80,R76,R77,R42,R41,R44,R43";"R_0402_1005Metric";12;"4.7K";;;
-30;"R87,R10,R88,R65,R50,R27,R89,R90";"R_0402_1005Metric";8;"47K";;;
-31;"R63,R25,R5,R8,R2,R48";"R_0402_1005Metric";6;"100R";;;
-32;"U4,U7";"WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm";2;"DML3012LDC-7";;;
-33;"U9,U3,U13,U21,U17";"SOT-23-8";5;"INA219AIDCNR";;;
-34;"C17,C35,C71,C53";"CP_Elec_6.3x7.7";4;"100u";;;
-35;"R4,R1";"R_0402_1005Metric";2;"10K";;;
-36;"R19,R73,R58,R36";"R_0402_1005Metric";4;"7.5K";;;
-37;"R51,R11,R66,R28";"R_0402_1005Metric";4;"430K";;;
-38;"R14,R54,R69,R31";"R_0402_1005Metric";4;"17.4K";;;
-39;"R20";"R_0402_1005Metric";1;"16.9K";;;
-40;"L3,L4,L2,L1";"L_Vishay_IHLP-4040";4;"IHLP4040DZER4R7M01";;;
-41;"U46,U40,U36";"T-UQFN-12";3;"TXB0104RUT";;;
-42;"R92,R91";"R_0402_1005Metric";2;"150R";;;
-43;"U37";"LQFP-144_20x20mm_P0.5mm";1;"STM32H753ZIT6";;;
-44;"L5,L6";"L_Vishay_IHLP-2020";2;"IHLP2020CZER4R7M11";;;
-45;"U8,U5";"SOT-23-6";2;"AP74700QW6-7";;;
-46;"U6,U2";"V-DFN3030-8";2;"DMT3006LDK-7";;;
-47;"U28";"Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias";1;"TPS2121RUXR";;;
-48;"R75,R22,R39,R60";"R_0402_1005Metric";4;"549R";;;
-49;"R16";"R_0402_1005Metric";1;"3.74K";;;
-50;"RN8,RN7";"R_Array_Convex_2x0402";2;"10K";;;
-51;"R94";"R_0402_1005Metric";1;"50R";;;
-52;"Q2,Q5,Q3,Q6,Q4,Q1";"SOT-23";6;"DMN67D7L-7";;;
-53;"C103";"C_0402_1005Metric";1;"100p";;;
-54;"TP11,TP10";"TestPoint_Pad_D2.0mm";2;"TestPoint";;;
-55;"C92,C88";"C_0805_2012Metric";2;"10u";;;
-56;"R93";"R_0402_1005Metric";1;"120R";;;
-57;"R86,R84";"R_0402_1005Metric";2;"5.6K";;;
-58;"U39";"SOT833-1-XSON8";1;"PCA9306";;;
-59;"R82";"R_0402_1005Metric";1;"25.5K";;;
-60;"R57,R18";"R_0402_1005Metric";2;"187K";;;
-61;"RN2,RN6,RN5";"R_Array_Convex_2x0402";3;"0R";;;
-62;"U26";"TSOT-23-6";1;"AP63203WU-7";;;
-63;"U30";"DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm";1;"THVD1450DRBR";;;
-64;"R33";"R_0402_1005Metric";1;"2.09K";;;
-65;"U29";"DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm";1;"TCAN1051GVDRBRQ";;;
-66;"R37";"R_0402_1005Metric";1;"9.09K";;;
-67;"U38";"LQFP-100_14x14mm_P0.5mm";1;"STM32F072VBT6";;;
-68;"U27";"TSOT-23-6";1;"AP63205WU-7";;;
-69;"U41";"QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm";1;"STM32F072CBUx";;;
-70;"J1";"PJ-082BH";1;"PJ-080BH";;;
-
-
-
-Ω
-
-change resistors to basic parts
-change resistor arrays to resistors lower fee
-change IHLP4040 to YSPI1050-4R7M
-change IHLP2020 to YSPI0530-4R7M
-change Q2,Q5,Q3,Q6,Q4,Q1 to 2N7002
-change U2, U6 to AP30H50Q
-change U37 to STM32H743ZIT6
-PCA903 thing footprint????
+"100n Unpolarized capacitor, small symbol","C1,C3,C5,C11,C27,C31,C32,C36,C37,C38,C39,C48,C54,C55,C56,C57,C66,C194,C195,C200,C208,C210,C212,C213,C216,C217,C218,C219,C220,C223,C224,C225,C226,C227,C228,C229",C_0402_1005Metric,C307331
+"1u Unpolarized capacitor, small symbol","C2,C49,C52,C53,C67,C70,C71,C211,C215",C_0402_1005Metric,C52923
+"22n Unpolarized capacitor, small symbol","C4,C42,C60",C_0402_1005Metric,C1532
+10u Unpolarized capacitor,"C6,C7,C8,C30,C35",C_0805_2012Metric,C15850
+100u Unpolarized capacitor,"C9,C40,C58",CP_Elec_6.3x7.7,C134220
+"1n Unpolarized capacitor, small symbol",C10,C_0402_1005Metric,C1523
+22u Unpolarized capacitor,"C28,C29,C33,C34,C41,C43,C44,C45,C46,C47,C59,C61,C62,C63,C64,C65",C_0805_2012Metric,C45783
+"220p Unpolarized capacitor, small symbol","C50,C68",C_0402_1005Metric,C1530
+"2.2n Unpolarized capacitor, small symbol","C51,C69",C_0402_1005Metric,C1531
+"4.7u Unpolarized capacitor, small symbol",C214,C_0402_1005Metric,C23733
+"2.2u Unpolarized capacitor, small symbol","C221,C222",C_0402_1005Metric,C12530
+TZ-P2-0603GTCS1-0.6T Light emitting diode,"D1,D3,D4,D14",LED_0603_1608Metric,C2286
+"1N5819 40V 1A Schottky Barrier Rectifier Diode, DO-41",D13,D_SOD-323,C191023
+10118194-0001LF USB Micro Type B connector,J7,AMPHENOL_10118194-0001LF,C132563
+"Conn_01x06_Pin Generic connector, single row, 01x06, script generated",J8,PinHeader_1x06_P1.27mm_Vertical_SMD_Pin1Right,C2881612
+"AMPHENOL_62684-401100ALF Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)",J9,AMPHENOL_62684-401100ALF,
+"1054301108 Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",J10,MOLEX_1054301108,
+SPM5020T-4R7M-LR Inductor,"L2,L3",L_Vishay_IHLP-2020,C307807
+SRP1038A-4R7M Inductor,"L4,L5",L_Vishay_IHLP-4040,C2041319
+"RE1C002UNTCL 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23",Q1,SOT-23,C509959
+"RE1C002UNTCL 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23","Q3,Q4",SOT-416,C509959
+"200R Resistor, small US symbol",R1,R_0402_1005Metric,C25087
+"10K Resistor, small US symbol","R2,R230,R231,R237,R267,R268",R_0402_1005Metric,C25744
+"20K Resistor, small US symbol",R3,R_0402_1005Metric,C25765
+"5m Resistor, small US symbol","R4,R31,R49",R_1206_3216Metric,C464975
+"100K Resistor, small US symbol","R19,R21,R47,R234",R_0402_1005Metric,C25741
+"5.6K Resistor, small US symbol","R20,R22",R_0402_1005Metric,C25908
+"27K Resistor, small US symbol","R23,R36,R54",R_0402_1005Metric,C25771
+"0R Resistor, small US symbol","R24,R25,R42,R43,R260",R_0402_1005Metric,C17168
+"47K Resistor, small US symbol","R26,R44",R_0402_1005Metric,C25792
+"33R Resistor, small US symbol","R27,R45,R251",R_0402_1005Metric,C25105
+"200K Resistor, small US symbol","R28,R33,R46,R51,R52,R236,R239,R243,R244,R262,R269",R_0402_1005Metric,C25764
+"15K Resistor, small US symbol","R29,R37,R55,R56",R_0402_1005Metric,C25756
+"22K Resistor, small US symbol","R30,R40,R58",R_0402_1005Metric,C25768
+"8.2K Resistor, small US symbol","R32,R50",R_0402_1005Metric,C25924
+"330K Resistor, small US symbol",R34,R_0402_1005Metric,C25778
+"1.5K Resistor, small US symbol",R35,R_0402_1005Metric,C25867
+"12K Resistor, small US symbol",R38,R_0402_1005Metric,C25752
+"150K Resistor, small US symbol",R39,R_0402_1005Metric,C25755
+"1K Resistor, small US symbol","R41,R59",R_0402_1005Metric,C11702
+"51K Resistor, small US symbol",R48,R_0402_1005Metric,C25794
+"2.2K Resistor, small US symbol",R53,R_0402_1005Metric,C25879
+"75K Resistor, small US symbol",R57,R_0402_1005Metric,C25798
+"4.7K Resistor, small US symbol","R60,R61,R62,R63,R64,R65,R96,R97,R98,R99,R100,R101",R_0402_1005Metric,C25900
+"510R Resistor, small US symbol","R266,R271",R_0402_1005Metric,C25123
+"0R 4 resistor network, parallel topology","RN21,RN22,RN27",R_Array_Concave_4x0402,C2001
+"0R 2 resistor network, parallel topology","RN24,RN26",R_Array_Convex_2x0402,C75375
+"10K 2 resistor network, parallel topology",RN25,R_Array_Convex_2x0402,C695179
+"TCA9544APWR I2C Hub, 4 Channels, Interrupts, TSSOP-20",U1,TSSOP-20_4.4x6.5mm_P0.65mm,C2674619
+VBQF1303 ,U2,V-DFN3030-8,C481054
+"INA219AIDCNR Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8","U3,U13,U17",SOT-23-8,C87469
+NCP45770IMN24TWG ,U4,WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm,C892480
+"AP74700QW6-7 Low Iq reverse battery protection ideal diode controller, SOT-23-6",U5,SOT-23-6,C5381661
+"AP63205WU-7 2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6",U10,TSOT-23-6,C2071056
+TPS2121RUXR ,U11,Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias,C485916
+"AP63203WU-7 2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6",U12,TSOT-23-6,C780769
+LM73100RPWR ,"U14,U18",VQFN-HR,C3210761
+TPS259474LRPWR ,"U15,U19",VQFN-HR,C3662807
+MP28167-A ,"U16,U20",QFN-16-MP28167,
+FH-00339 ,U72,PI_ZERO_2_W,C2685112
+TCAN1051GVDRBRQ ,U73,DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm,C1848110
+PCAL6524HEAZ ,U79,HVQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,C3000497
+ESD7004MUTAG ,U80,UDFN10_ESD,C1972960
+"STM32H743ZITx STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.62-3.6V, 114 GPIO, LQFP144",U85,LQFP-144_20x20mm_P0.5mm,C114408
+TPS2115ADRBR ,"U89,U90",VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm_ThermalVias,C140321
+"CSTNE8M00G55A Three pin crystal, GND on pin 2, small symbol",Y4,Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm,C341523
