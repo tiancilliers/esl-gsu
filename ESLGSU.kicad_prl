@@ -65,8 +65,8 @@
       39,
       40
     ],
-    "visible_layers": "0001060_8000000f",
-    "zone_display_mode": 1
+    "visible_layers": "0009060_8000001f",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ESLGSU.kicad_prl",
