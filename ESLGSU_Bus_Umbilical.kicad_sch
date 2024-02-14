@@ -1128,7 +1128,7 @@
     (property "Datasheet" "~" (at 69.85 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCDC Part" "C2904111" (at 69.85 88.9 0)
+    (property "LCSC Part" "C2904111" (at 69.85 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "01" (uuid 9616989a-8065-4e15-998b-b4570fafeca4))
