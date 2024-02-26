@@ -1762,7 +1762,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 212.09 90.17 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3b2257fc-3f2a-44b3-adc3-7c17dffc47ec)
     (property "Reference" "C6" (at 214.63 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1916,7 +1916,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:CY8C9520A") (at 203.2 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid a6c401dc-e720-4e3a-9e70-396b86cb7b10)
     (property "Reference" "U57" (at 205.3941 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))

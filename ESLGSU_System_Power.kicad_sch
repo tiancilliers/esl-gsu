@@ -2732,7 +2732,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 73.66 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 0130058e-21f2-47b6-8882-7f044840d966)
     (property "Reference" "R16" (at 74.93 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2786,7 +2786,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 43.18 78.74 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 0435dd83-ac74-452b-8eb2-57c749821525)
     (property "Reference" "R276" (at 41.91 81.28 90)
       (effects (font (size 1.27 1.27)))
@@ -2847,7 +2847,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 81.28 85.09 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0899405c-2e27-4be1-92a6-b85e50075461)
     (property "Reference" "R10" (at 83.82 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2901,7 +2901,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 168.91 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 0c525bbb-ee5e-4370-9890-f2ed63843d04)
     (property "Reference" "C25" (at 171.45 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2984,7 +2984,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 71.12 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 0e4d0f15-f195-4407-ac37-2fae84ff1003)
     (property "Reference" "C17" (at 73.66 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3099,7 +3099,7 @@
   )
 
   (symbol (lib_id "Power_Management:LM74700") (at 186.69 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 1150f5b0-8078-47c8-8b8a-42345abbbe4c)
     (property "Reference" "U9" (at 189.23 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3132,7 +3132,7 @@
   )
 
   (symbol (lib_id "Transistor_FET:DMN67D7L") (at 154.94 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 15e0c2df-69b1-4295-8cd7-386ba5dcf99a)
     (property "Reference" "Q1" (at 151.13 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3219,7 +3219,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 74.93 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 194b6773-3dd3-4702-80c1-bfc5b86f783e)
     (property "Reference" "C26" (at 77.47 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3287,7 +3287,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 57.15 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 19fa785d-f18f-4e56-833c-a675f0839a7d)
     (property "Reference" "C13" (at 48.26 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3319,7 +3319,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:NCP45770") (at 129.54 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 1bad80b4-ff7e-4f13-af3c-e4fae2ec0401)
     (property "Reference" "U8" (at 119.38 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3359,7 +3359,7 @@
   )
 
   (symbol (lib_id "Device:L") (at 59.69 54.61 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1d97a13c-611f-452c-8dba-62d8254a789d)
     (property "Reference" "L1" (at 59.69 49.53 90)
       (effects (font (size 1.27 1.27)))
@@ -3391,7 +3391,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 22.86 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 21536fb8-1a1b-4f1c-a335-d2234641bae2)
     (property "Reference" "C18" (at 23.3214 92.9413 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3552,7 +3552,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:DMT3006LDK") (at 186.69 90.17 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3159c033-0e4e-41b2-b712-1e791a3dfbe7)
     (property "Reference" "U6" (at 186.69 78.74 90)
       (effects (font (size 1.27 1.27)))
@@ -3661,7 +3661,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 200.66 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 399fc7cb-a40e-48fe-94cc-b8e50b96ad55)
     (property "Reference" "C21" (at 203.2 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3722,7 +3722,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 57.15 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3bff8c52-c103-4784-b3f5-c0018f68a607)
     (property "Reference" "R6" (at 49.53 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3779,7 +3779,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 143.51 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3e3851e4-b3dc-47d2-a472-a0f051107c63)
     (property "Reference" "R18" (at 144.78 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3862,7 +3862,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 81.28 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 41f20d0d-ce37-4b51-a04b-e53e92391f8a)
     (property "Reference" "C18" (at 81.7414 98.0213 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4015,7 +4015,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 110.49 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 49caa21d-9252-4768-85f4-1e7347735a1a)
     (property "Reference" "C16" (at 113.03 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4074,7 +4074,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 45.72 74.93 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4dfce613-b68a-4ca9-aabb-05eb2d32af63)
     (property "Reference" "C233" (at 43.18 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4103,7 +4103,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 73.66 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4fa5aecf-6a03-4533-8066-bfd97ece5f17)
     (property "Reference" "R7" (at 74.93 78.74 90)
       (effects (font (size 1.27 1.27)))
@@ -4132,7 +4132,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 73.66 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 5013f7c9-5fab-47e9-8174-605fc816f247)
     (property "Reference" "R17" (at 74.93 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4161,7 +4161,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 166.37 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 5140d53e-3b0e-450d-8c71-2a4a092e02ec)
     (property "Reference" "C20" (at 168.91 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4271,7 +4271,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 62.23 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 68093c62-dc70-4256-be2a-461d65db58d2)
     (property "Reference" "C14" (at 67.31 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4328,7 +4328,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 92.71 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7089cb9a-5c1a-4134-b013-154ade184c7d)
     (property "Reference" "C18" (at 93.1714 82.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4505,7 +4505,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 157.48 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7b848092-20bb-4333-a4a4-0b9ff34774e3)
     (property "Reference" "D1" (at 152.4 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4537,7 +4537,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 148.59 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7fc79191-8675-4bf4-b46c-03166ca3a810)
     (property "Reference" "R15" (at 149.86 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4690,7 +4690,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 73.66 88.9 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 85b76a61-e73f-4f3e-b3b9-808080dac029)
     (property "Reference" "R11" (at 71.12 95.25 90)
       (effects (font (size 1.27 1.27)))
@@ -4804,7 +4804,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 97.79 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 903315ad-8ce8-40ea-9199-7d5d6ce29612)
     (property "Reference" "C232" (at 100.33 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4833,7 +4833,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 35.56 83.82 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 9438095f-e39e-4d8c-8cc7-3a73b83cce99)
     (property "Reference" "R9" (at 35.56 77.47 90)
       (effects (font (size 1.27 1.27)))
@@ -4862,7 +4862,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 45.72 93.98 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 96d7571f-a68b-4dba-89b7-cdeb506ca153)
     (property "Reference" "R14" (at 46.99 88.9 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5066,7 +5066,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 157.48 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a6127905-fc4f-4fe7-81d3-68127ae5c63b)
     (property "Reference" "R8" (at 153.8156 88.9163 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5123,7 +5123,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 27.94 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a7990bc4-7bed-4856-9071-d92fccce101e)
     (property "Reference" "C231" (at 30.48 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5183,7 +5183,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 38.1 71.12 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid ada1e9c4-a93f-4f21-8c9e-de6f57d81871)
     (property "Reference" "R278" (at 40.64 64.77 90)
       (effects (font (size 1.27 1.27)))
@@ -5368,7 +5368,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 110.49 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c5bb27f1-2a4e-4b84-b8cd-4441ccf50684)
     (property "Reference" "C24" (at 113.03 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5397,7 +5397,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 86.36 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c832332a-706a-4ecf-ac18-fdce776224da)
     (property "Reference" "C18" (at 86.8214 98.0213 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5547,7 +5547,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 87.63 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid ccb434ce-f72d-4bf8-a925-9f4937cc3d1d)
     (property "Reference" "C18" (at 88.0914 82.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6009,7 +6009,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 62.23 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e98db1e9-cbf0-4539-be73-5b25788b62c4)
     (property "Reference" "R7" (at 67.31 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6070,7 +6070,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 17.78 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid eec70a11-3f55-443b-8fbf-ebe38b1f6520)
     (property "Reference" "C18" (at 18.2414 92.9413 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6102,7 +6102,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:MP2651GVT") (at 59.69 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f157e18d-c0a8-4d1e-acc7-7cb78f6e21ee)
     (property "Reference" "U7" (at 71.12 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))

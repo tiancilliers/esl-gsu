@@ -422,7 +422,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2553DRVR") (at 90.17 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 28ca8394-64d4-4dc7-aea5-68397d78c152)
     (property "Reference" "U94" (at 90.17 30.48 0)
       (effects (font (size 1.27 1.27)))
@@ -456,7 +456,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2553DRVR") (at 90.17 146.05 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 326edecc-2651-4335-8ac2-8b3e90febc02)
     (property "Reference" "U97" (at 90.17 127 0)
       (effects (font (size 1.27 1.27)))
@@ -515,7 +515,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 60.96 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 57e67927-7476-4ba7-b47a-46bdc40e5cd8)
     (property "Reference" "C12" (at 63.5 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -550,7 +550,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 60.96 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 5c9b0823-8235-47ed-b3cd-f4a57edab481)
     (property "Reference" "C12" (at 63.5 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -685,7 +685,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 97.79 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 7e088cd7-937c-4b74-9a65-1acd2814a404)
     (property "Reference" "R287" (at 100.33 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -714,7 +714,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 60.96 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid b2701f92-cc6a-4095-b5ef-a5e9c2b95098)
     (property "Reference" "C12" (at 63.5 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -799,7 +799,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 60.96 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c73cb312-23a2-4c75-bc5e-bf0b18c076c6)
     (property "Reference" "C12" (at 63.5 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -834,7 +834,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 97.79 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid cf5b0162-14c4-4810-8e26-4453af5d33c9)
     (property "Reference" "R286" (at 100.33 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -863,7 +863,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2553DRVR") (at 90.17 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid da781859-e530-4e58-b74d-07227e63ccd5)
     (property "Reference" "U95" (at 90.17 63.5 0)
       (effects (font (size 1.27 1.27)))
@@ -897,7 +897,7 @@
   )
 
   (symbol (lib_id "ESLGSU_Parts_Lib:TPS2553DRVR") (at 90.17 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid e4aef0d8-23cc-49cc-a7c1-12fbd981284d)
     (property "Reference" "U96" (at 90.17 95.25 0)
       (effects (font (size 1.27 1.27)))
@@ -956,7 +956,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 97.79 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid fb3b0dcf-f59f-4ae2-b82c-650b8bcd1e2e)
     (property "Reference" "R285" (at 100.33 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -985,7 +985,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 97.79 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid fbfcd90d-06a1-4ebe-bda2-4011702638e8)
     (property "Reference" "R288" (at 100.33 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
