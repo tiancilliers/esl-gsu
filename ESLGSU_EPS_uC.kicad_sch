@@ -7703,7 +7703,7 @@
     (property "Datasheet" "~" (at 204.47 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part" "C2881612" (at 204.47 152.4 0)
+    (property "LCSC Part" "C2881573" (at 204.47 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b61ad07a-c52e-4d3e-a271-55ff50862a70))
