@@ -659,7 +659,7 @@
     (property "Datasheet" "" (at 129.54 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part" "C2685112" (at 128.27 80.01 0)
+    (property "LCSC Part" "C2685115" (at 128.27 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 59c9bd29-fe4c-4f01-ad91-1f111a2bc594))

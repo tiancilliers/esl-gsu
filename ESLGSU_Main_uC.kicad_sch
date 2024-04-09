@@ -9156,7 +9156,7 @@
     (property "Datasheet" "~" (at 203.2 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part" "C2881573" (at 203.2 152.4 0)
+    (property "LCSC Part" "C2881496" (at 203.2 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 502d5b2d-5712-44a1-93ab-0338cd7502cc))
