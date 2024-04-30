@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -65,8 +65,8 @@
       39,
       40
     ],
-    "visible_layers": "0001020_00000001",
-    "zone_display_mode": 1
+    "visible_layers": "0009020_8000000f",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ESLGSU.kicad_prl",
